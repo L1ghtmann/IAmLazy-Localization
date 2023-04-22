@@ -5,7 +5,7 @@
 // RootVC
 "backup" = "Backup";
 "restore" = "Wiederherstellen";
-"created_by" = "Created by Lightmann";
+"created_by" = "Von Lightmann";
 "source" = "Quelle";
 "backups" = "Backups";
 "go" = "Los!";
@@ -17,7 +17,7 @@
 
 "storage_msg" = "Bitte stelle sicher, dass ausreichend freier Speicher verfügbar ist";
 "selection_msg" = "Wähle das wiederherzustellende Backup";
-"restore_confirmation" = "";
+"restore_confirmation" = "Möchtest du das folgende Backup wirklich wiederherstellen";
 "yes" = "Ja";
 "no" = "Nein";
 "note" = "Wichtig";
