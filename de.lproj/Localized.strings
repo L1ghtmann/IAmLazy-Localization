@@ -75,13 +75,13 @@
 "gen_err_3" = "Fehler beim erstellen von";
 "gen_err_4" = "Fehler beim Laden der Inhalte von";
 "gen_err_5" = "ist nicht beschreibbar";
-"gen_err_6" = "Bitte stelle sicher, dass der Ordner mobile gehört und nicht root";
+"gen_err_6" = "Bitte stelle sicher, dass der Besitzer des Ordners mobile ist";
 
 // RestoreManager
 "restore_err_1" = "Das Backupverzeichnis existiert nicht";
 "restore_err_2" = "Es wurden keine Backups gefunden";
 "restore_err_3" = "Das Backup";
-"restore_err_4" = "konmte nicht gefunden werden";
+"restore_err_4" = "konnte nicht gefunden werden";
 "restore_err_5" = "Das wiederherzustellende Backup wurde erstellt für Jailbreaks mit dem";
 "bootstrap" = "Bootstrap";
 "restore_err_6" = "Dein aktueller Jailbreak nutzt";
