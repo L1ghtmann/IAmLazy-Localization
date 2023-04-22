@@ -1,0 +1,89 @@
+//
+//      Translation by turkborough
+//
+
+// RootVC
+"backup" = "Yedekle";
+"restore" = "Ykle";
+"created_by" = "Lightmann projesidir";
+"source" = "Kaynak";
+"backups" = "Yedekler";
+"go" = "Devam";
+
+"standard" = "Standart";
+"developer" = "Gelitirici";
+"latest" = "En son";
+"specific" = "Belirli";
+
+"storage_msg" = "Devam etmeden nce ltfen yeterli depolama alannz oldunu dan emin olun";
+"selection_msg" = "Yklemek istediniz yede sen";
+"restore_confirmation" = "Bu yede yklemek istedinizden emin misiniz:";
+"yes" = "Evet";
+"no" = "Hayr";
+"note" = "Ltfen dikkat";
+"bootstrap_warning" = "Gelitirici yedenden yklemek istiyorsunuz. Bu yedekleme, bootstrap paketleri de iriyor.";
+"bootstrap_confirmation" = "Bunu anladnz ve yine de ykleme ilemine devam etmek istedinizi ltfen onaylayn.";
+
+"confirm" = "Onayla";
+"cancel" = "Vazge;
+
+"success" = "Tweak yedekleme bu sre inde tamamland:";
+"seconds" = "saniye";
+"backup_loc" = "Yedekleri bu klasrde bulabilirsiniz:";
+"post_restore" = "Yedek sonras komut sen:";
+"none" = "Yok";
+"export" = "Aktar";
+"ok" = "Tamam";
+
+// ProgressVC
+"progress" = "erleme";
+"waiting" = "Bekliyor";
+"completed" = "Tamamland";
+"in-progress" = "Srdrlyor";
+
+"backup_s1_f" = "Kullanc paketleri derlendiriliyor";
+"backup_s1" = "Kurulu paketler derlendiriliyor";
+"backup_s2" = "Paket dosyalar alnyor";
+"backup_s3" = "Dosyalardan deb paketleri oluturuluyor";
+"backup_s4" = "deb paketlerinden yedek oluturuluyor";
+
+"restore_s1" = "Ykleme ncesi kontroller yaplyor";
+"restore_s2" = "Yedekler paketten kartlyor";
+"restore_s3" = "APT kaynaklar yenileniyor";
+"restore_s4" = "deb paketleri ykleniyor";
+
+// BackupsVC
+"del_err_1" = "Hata olutu ve";
+"del_err_2" = "silinemedi";
+"info" = "Detay";
+"rm_err_1" = "silinemiyor";
+"import_err_1" = "i aktarlamad";
+
+// BackupManager
+"backup_err_1" = "Kurulu paketler in kontrol oluturulamad";
+"backup_err_2" = "Paket listesi oluturulamad";
+"backup_err_3" = "bo";
+"backup_err_4" = "iri sahip del";
+"backup_err_5" = "Bu  in kontrol bulunmuyor:";
+"backup_err_6" = "Bu nin kontrol";
+"backup_err_7" = "deb paketi oluturulamad! Nedeni tespit edilemedi";
+
+// GenManager
+"error" = "Hata";
+"gen_err_1" = "Cihaznz internete ba grnmyor";
+"gen_err_2" = "Paketlerin indirilebilip yklenmesi in abaants gerekli olabilir.";
+"gen_err_3" = "e oluturulamad";
+"gen_err_4" = "e iri bulunamad";
+"gen_err_5" = "dizinine yazma izniniz bulunmuyor";
+"gen_err_6" = "Dizin sahibinin mobile oldundan ve root olmadndan ltfen emin olun";
+
+// RestoreManager
+"restore_err_1" = "Yedekleme dizini mevcut del";
+"restore_err_2" = "Yedek bulunamad";
+"restore_err_3" = "Belirtilen yedek";
+"restore_err_4" = "bulunamad";
+"restore_err_5" = "Yklemeye ltnz yedek, bu yi kullanan jailbreak'ler indir";
+"bootstrap" = "bootstrap";
+"restore_err_6" = "Kullandnz jailbreak";
+"restore_err_7" = "bo";
+"restore_err_8" = "deb yok";
