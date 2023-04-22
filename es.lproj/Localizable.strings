@@ -1,0 +1,89 @@
+//
+//	Translation by Alejandro Katz
+//
+
+// RootVC
+"backup" = "Backup";
+"restore" = "Restaurar";
+"created_by" = "Creado por Lightmann";
+"source" = "Source";
+"backups" = "Backups";
+"go" = "Go";
+
+"standard" = "Estándar";
+"developer" = "Desarrollador";
+"latest" = "Último";
+"specific" = "Particular";
+
+"storage_msg" = "Por favor, confirme que tienes suficiente espacio en disco antes de continuar";
+"selection_msg" = "Elige el backup para restaurar";
+"restore_confirmation" = "Estas seguro quieres restaurar de backup";
+"yes" = "Si";
+"no" = "Ni";
+"note" = "Aviso";
+"bootstrap_warning" = "Has elegido restaurar de un backup desarrollador. Este backup incluye paquetes bootstrap.";
+"bootstrap_confirmation" = "Confirmate que entiendes esto y los consecuencias potenciales ¿Deseas seguir?";
+
+"confirm" = "Confirme";
+"cancel" = "Cancela";
+
+"success" = "Backup de tweaks completó con éxito en"; 
+"seconds" = "segundos";
+"backup_loc" = "Tú backup se encuentra en";
+"post_restore" = "Elija un comando posterior a la restauración";
+"none" = "Nada";
+"export" = "Exportar";
+"ok" = "bueno";
+
+// ProgressVC
+"progress" = "Progreso";
+"waiting" = "Esperando";
+"completed" = "Complete";
+"in-progress" = "En-progreso";
+
+"backup_s1_f" = "Determinando paquetes de usuario";
+"backup_s1" = "Determinando paquetes instalados";
+"backup_s2" = "Coleccionando archivos para paquetes.";
+"backup_s3" = "Armando debs de los archivos";
+"backup_s4" = "Creando backup desde debs";
+
+"restore_s1" = "Completar comprobaciones previas a la restauración";
+"restore_s2" = "Expansión del archivo backup";
+"restore_s3" = "Refreshing APT sources";
+"restore_s4" = "Installing debs";
+
+// BackupsVC
+"del_err_1" = "Un error ocurrió y";
+"del_err_2" = "no estaba borrado";
+"info" = "Info";
+"rm_err_1" = "no se puede borrar";
+"import_err_1" = "no se puede importar";
+
+// BackupManager
+"backup_err_1" = "Falla en generar controles para paquetes instalados"; 
+"backup_err_2" = "Falla en generar lista de paquetes";
+"backup_err_3" = "esta vacio";
+"backup_err_4" = "no tiene contenido";
+"backup_err_5" = "No hay controles para";
+"backup_err_6" = "El control para";
+"backup_err_7" = "¡Falla en construyendo los debs! ¿Cómo llegamos aquí?"
+
+// GenManager
+"error" = "Error";
+"gen_err_1" = "Tu dispositivo no aparece estar conectado a la Internet";
+"gen_err_2" = "Un conexión de red es necesario para restauraciones asi paquetes pueden estar bajados si se necesitan";
+"gen_err_3" = "Falla en crear";
+"gen_err_4" = "Falla en leer los contenidos de";
+"gen_err_5" = "no se puede escribir";
+"gen_err_6" = "Please ensure that the directory's owner is mobile and not root";
+
+// RestoreManager
+"restore_err_1" = "El directorio de backups no existe";
+"restore_err_2" = "No se encuentra ningún backup";
+"restore_err_3" = "El backup elegido";
+"restore_err_4" = "no se encuentra";
+"restore_err_5" = "El backup que estas tratando de usar para un restauracion estaba hecho para jailbreaks usando el"; 
+"bootstrap" = "bootstrap";
+"restore_err_6" = "Tu jailbreak está usando";
+"restore_err_7" = "está vacío";
+"restore_err_8" = "no tiene debs";
