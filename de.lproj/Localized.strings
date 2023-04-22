@@ -1,0 +1,89 @@
+//
+//	Translation by Uckermark
+//
+
+// RootVC
+"backup" = "Backup";
+"restore" = "Wiederherstellen";
+"created_by" = "Created by Lightmann";
+"source" = "Quelle";
+"backups" = "Backups";
+"go" = "Los!";
+
+"standard" = "Standard";
+"developer" = "Entwickler";
+"latest" = "Neuestes";
+"specific" = "Speziell";
+
+"storage_msg" = "Bitte stelle sicher, dass ausreichend freier Speicher verfügbar ist";
+"selection_msg" = "Wähle das wiederherzustellende Backup";
+"restore_confirmation" = "";
+"yes" = "Ja";
+"no" = "Nein";
+"note" = "Wichtig";
+"bootstrap_warning" = "Du hast entschieden ein Entwickler Backup wiederherzustellen. Dieses enthält Bootstrap Pakete.";
+"bootstrap_confirmation" = "Bitte bestätige deine Auswahl.";
+
+"confirm" = "Bestätigen";
+"cancel" = "Abbrechen";
+
+"success" = "Tweak Backup erfolgreich abgeschlossen in";
+"seconds" = "Sekunden";
+"backup_loc" = "Backup gespeichert in";
+"post_restore" = "Wähle einen Post-Wiederherstellungsbefehl";
+"none" = "Keiner";
+"export" = "Exportieren";
+"ok" = "Okay";
+
+// ProgressVC
+"progress" = "Fortschritt";
+"waiting" = "Warten";
+"completed" = "Abgeschlossen";
+"in-progress" = "In Arbeit";
+
+"backup_s1_f" = "Erkennen von Benutzerpaketen";
+"backup_s1" = "Erkennen der installierten Pakete";
+"backup_s2" = "Sammeln der Paketdateien";
+"backup_s3" = "Pakete werden gebaut";
+"backup_s4" = "Backup der Pakete wird erstellt";
+
+"restore_s1" = "Abschließen der Wiederherstellungsvorüberprüfung";
+"restore_s2" = "Entpacken des Backups";
+"restore_s3" = "Neuladen der APT Quellen";
+"restore_s4" = "Installiere Pakete";
+
+// BackupsVC
+"del_err_1" = "Ein Fehler ist aufgetreten und";
+"del_err_2" = "wurde nicht entfernt";
+"info" = "Info";
+"rm_err_1" = "konnte nicht entfernt werden";
+"import_err_1" = "konnte nicht importiert werden";
+
+// BackupManager
+"backup_err_1" = "Fehler beim erstellen der Kontrolldateien";
+"backup_err_2" = "Fehler beim erstellen der Paketliste";
+"backup_err_3" = "ist leer";
+"backup_err_4" = "hat keinen Inhalt";
+"backup_err_5" = "Es scheint keine Kotrolldatei zu geben für";
+"backup_err_6" = "Die Kontrolldatei für";
+"backup_err_7" = "Fehler beim bauen der Pakete! Keiner weiß wie das passieren konnte";
+
+// GenManager
+"error" = "Fehler";
+"gen_err_1" = "Es konnte keine Verbindung zum Internet hergestellt werden";
+"gen_err_2" = "Eine Netzwerkverbindung ist notwending zum Wiederherstellen von Paketen";
+"gen_err_3" = "Fehler beim erstellen von";
+"gen_err_4" = "Fehler beim Laden der Inhalte von";
+"gen_err_5" = "ist nicht beschreibbar";
+"gen_err_6" = "Bitte stelle sicher, dass der Ordner mobile gehört und nicht root";
+
+// RestoreManager
+"restore_err_1" = "Das Backupverzeichnis existiert nicht";
+"restore_err_2" = "Es wurden keine Backups gefunden";
+"restore_err_3" = "Das Backup";
+"restore_err_4" = "konmte nicht gefunden werden";
+"restore_err_5" = "Das wiederherzustellende Backup wurde erstellt für Jailbreaks mit dem";
+"bootstrap" = "Bootstrap";
+"restore_err_6" = "Dein aktueller Jailbreak nutzt";
+"restore_err_7" = "ist leer";
+"restore_err_8" = "enthält keine Pakete";
