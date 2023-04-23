@@ -75,7 +75,7 @@
 "gen_err_3" = "Falla en crear";
 "gen_err_4" = "Falla en leer los contenidos de";
 "gen_err_5" = "no se puede escribir";
-"gen_err_6" = "Please ensure that the directory's owner is mobile and not root";
+"gen_err_6" = "Asegurate que el directorio pertenece a mobile y no a root";
 
 // RestoreManager
 "restore_err_1" = "El directorio de backups no existe";
