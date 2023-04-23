@@ -32,7 +32,7 @@
 "confirm" = "確認"
 "cancel" = "キャンセル"
 
-"success" = "ツィーグのバクアップはTweak backup completed successfully in"
+"success" = "ツィーグのバクアップは"
 // japanese word order is different so i had to add the 'succesfully completed' part in after the seconds part
 "seconds" = "秒に完了しました"
 "backup_loc" = "あなたのバクアップはこのところで見つけられます"
@@ -52,7 +52,7 @@
 "backup_s1" = "インストールしたパッケージを見つけています"
 // i just said 'in order to make packages' because that's what's happening here right?
 "backup_s2" = "パッケージを作るため、ファイルを見つけています"
-"backup_s3" = "ファイルからdebsを作っていますBuilding debs from files"
+"backup_s3" = "ファイルからdebsを作っています"
 "backup_s4" = "debsからバクアップを作っています"
 
 "restore_s1" = "戻す前のチェックをしています"
