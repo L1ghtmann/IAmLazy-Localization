@@ -6,7 +6,7 @@
 "backup" = "Backup";
 "restore" = "Restore";
 "created_by" = "Created by Lightmann";
-"source" = "Source";
+"credits" = "Credits";
 "backups" = "Backups";
 "go" = "Go";
 
@@ -15,12 +15,12 @@
 "latest" = "Latest";
 "specific" = "Specific";
 
-"storage_msg" = "Please confirm that you have adequate free storage before proceeding";
-"selection_msg" = "Choose the backup you'd like to restore from";
+"storage_msg" = "Please confirm that you have adequate free storage before proceeding:";
+"selection_msg" = "Choose the backup you'd like to restore from:";
 "restore_confirmation" = "Are you sure that you want to restore from";
 "yes" = "Yes";
 "no" = "No";
-"note" = "Please note";
+"note" = "Please note:";
 "bootstrap_warning" = "You have chosen to restore from a developer backup. This backup includes bootstrap packages.";
 "bootstrap_confirmation" = "Please confirm that you understand this and still wish to proceed with the restore";
 
@@ -30,7 +30,7 @@
 "success" = "Tweak backup completed successfully in";
 "seconds" = "seconds";
 "backup_loc" = "Your backup can be found in";
-"post_restore" = "Choose a post-restore command";
+"post_restore" = "Choose a post-restore command:";
 "none" = "None";
 "export" = "Export";
 "ok" = "Okay";
@@ -60,13 +60,13 @@
 "import_err_1" = "could not be imported";
 
 // BackupManager
-"backup_err_1" = "Failed to generate controls for installed packages";
-"backup_err_2" = "Failed to generate list of packages";
+"backup_err_1" = "Failed to generate controls for installed packages!";
+"backup_err_2" = "Failed to generate list of packages!";
 "backup_err_3" = "is blank";
 "backup_err_4" = "has no contents";
 "backup_err_5" = "There appear to be no controls for";
 "backup_err_6" = "The control for";
-"backup_err_7" = "Failed to build debs! Not sure how we got here honestly";
+"backup_err_7" = "Failed to build debs! Not sure how we got here honestly.";
 
 // GenManager
 "error" = "Error";
@@ -78,8 +78,8 @@
 "gen_err_6" = "Please ensure that the directory's owner is mobile and not root";
 
 // RestoreManager
-"restore_err_1" = "The backup dir does not exist";
-"restore_err_2" = "No backups were found";
+"restore_err_1" = "The backup dir does not exist!";
+"restore_err_2" = "No backups were found!";
 "restore_err_3" = "The target backup";
 "restore_err_4" = "could not be found";
 "restore_err_5" = "The backup you're trying to restore from was made for jailbreaks using the";

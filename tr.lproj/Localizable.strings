@@ -6,7 +6,7 @@
 "backup" = "Yedekle";
 "restore" = "Ykle";
 "created_by" = "Lightmann projesidir";
-"source" = "Kaynak";
+// "credits" = "Credits";
 "backups" = "Yedekler";
 "go" = "Devam";
 
@@ -15,12 +15,12 @@
 "latest" = "En son";
 "specific" = "Belirli";
 
-"storage_msg" = "Devam etmeden nce ltfen yeterli depolama alannz oldunu dan emin olun";
-"selection_msg" = "Yklemek istediniz yede sen";
+"storage_msg" = "Devam etmeden nce ltfen yeterli depolama alannz oldunu dan emin olun:";
+"selection_msg" = "Yklemek istediniz yede sen:";
 "restore_confirmation" = "Bu yede yklemek istedinizden emin misiniz:";
 "yes" = "Evet";
 "no" = "Hayr";
-"note" = "Ltfen dikkat";
+"note" = "Ltfen dikkat:";
 "bootstrap_warning" = "Gelitirici yedenden yklemek istiyorsunuz. Bu yedekleme, bootstrap paketleri de iriyor.";
 "bootstrap_confirmation" = "Bunu anladnz ve yine de ykleme ilemine devam etmek istedinizi ltfen onaylayn.";
 
@@ -60,13 +60,13 @@
 "import_err_1" = "i aktarlamad";
 
 // BackupManager
-"backup_err_1" = "Kurulu paketler in kontrol oluturulamad";
-"backup_err_2" = "Paket listesi oluturulamad";
+"backup_err_1" = "Kurulu paketler in kontrol oluturulamad!";
+"backup_err_2" = "Paket listesi oluturulamad!";
 "backup_err_3" = "bo";
 "backup_err_4" = "iri sahip del";
 "backup_err_5" = "Bu  in kontrol bulunmuyor:";
 "backup_err_6" = "Bu nin kontrol";
-"backup_err_7" = "deb paketi oluturulamad! Nedeni tespit edilemedi";
+"backup_err_7" = "deb paketi oluturulamad! Nedeni tespit edilemedi.";
 
 // GenManager
 "error" = "Hata";
@@ -78,8 +78,8 @@
 "gen_err_6" = "Dizin sahibinin mobile oldundan ve root olmadndan ltfen emin olun";
 
 // RestoreManager
-"restore_err_1" = "Yedekleme dizini mevcut del";
-"restore_err_2" = "Yedek bulunamad";
+"restore_err_1" = "Yedekleme dizini mevcut del!";
+"restore_err_2" = "Yedek bulunamad!";
 "restore_err_3" = "Belirtilen yedek";
 "restore_err_4" = "bulunamad";
 "restore_err_5" = "Yklemeye ltnz yedek, bu yi kullanan jailbreak'ler indir";
