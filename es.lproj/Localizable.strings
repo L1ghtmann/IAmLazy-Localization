@@ -30,7 +30,7 @@
 "success" = "Backup de tweaks completó con éxito en"; 
 "seconds" = "segundos";
 "backup_loc" = "Tú backup se encuentra en";
-"post_restore" = "Elija un comando posterior a la restauración";
+"post_restore" = "Elija un comando posterior a la restauración:";
 "none" = "Nada";
 "export" = "Exportar";
 "ok" = "bueno";
