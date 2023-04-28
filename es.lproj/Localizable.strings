@@ -78,7 +78,7 @@
 "gen_err_6" = "Asegurate que el directorio pertenece a mobile y no a root";
 
 // RestoreManager
-"restore_err_1" = "El directorio de backups no existe";
+"restore_err_1" = "El directorio de backups no existe!";
 "restore_err_2" = "No se encuentra ningún backup";
 "restore_err_3" = "El backup elegido";
 "restore_err_4" = "no se encuentra";
