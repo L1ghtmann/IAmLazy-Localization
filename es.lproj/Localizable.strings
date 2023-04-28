@@ -60,7 +60,7 @@
 "import_err_1" = "no se puede importar";
 
 // BackupManager
-"backup_err_1" = "Falla en generar controles para paquetes instalados"; 
+"backup_err_1" = "Falla en generar controles para paquetes instalados!"; 
 "backup_err_2" = "Falla en generar lista de paquetes";
 "backup_err_3" = "esta vacio";
 "backup_err_4" = "no tiene contenido";
