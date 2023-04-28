@@ -20,7 +20,7 @@
 "restore_confirmation" = "Estas seguro quieres restaurar de backup";
 "yes" = "Si";
 "no" = "Ni";
-"note" = "Aviso";
+"note" = "Aviso:";
 "bootstrap_warning" = "Has elegido restaurar de un backup desarrollador. Este backup incluye paquetes bootstrap.";
 "bootstrap_confirmation" = "Confirmate que entiendes esto y los consecuencias potenciales ¿Deseas seguir?";
 
