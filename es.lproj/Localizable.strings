@@ -16,7 +16,7 @@
 "specific" = "Particular";
 
 "storage_msg" = "Por favor, confirme que tienes suficiente espacio en disco antes de continuar:";
-"selection_msg" = "Elige el backup para restaurar";
+"selection_msg" = "Elige el backup para restaurar:";
 "restore_confirmation" = "Estas seguro quieres restaurar de backup";
 "yes" = "Si";
 "no" = "Ni";
