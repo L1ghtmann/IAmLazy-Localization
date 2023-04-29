@@ -1,0 +1,89 @@
+//
+//	Translation by gujiaming2022
+//
+
+// RootVC
+"backup" = "备份";
+"restore" = "恢复";
+"created_by" = "由Lightmann开发";
+"credits" = "致谢";
+"backups" = "备份文件";
+"go" = "开始";
+
+"standard" = "标准版";
+"developer" = "开发者版";
+"latest" = "最新版";
+"specific" = "特定版本";
+
+"storage_msg" = "请确认您有足够的存储空间再进行操作:";
+"selection_msg" = "请选择您要恢复的备份:";
+"restore_confirmation" = "您确定要从以下备份进行恢复吗";
+"yes" = "是";
+"no" = "否";
+"note" = "请注意:";
+"bootstrap_warning" = "您选择了从开发者备份进行恢复。该备份包括引导包。";
+"bootstrap_confirmation" = "请确认您已理解并仍然希望继续恢复";
+
+"confirm" = "确认";
+"cancel" = "取消";
+
+"success" = "插件备份已完成，用时";
+"seconds" = "秒";
+"backup_loc" = "您的备份文件位于";
+"post_restore" = "选择恢复后的操作:";
+"none" = "无";
+"export" = "导出";
+"ok" = "好的";
+
+// ProgressVC
+"progress" = "进度";
+"waiting" = "等待中";
+"completed" = "已完成";
+"in-progress" = "进行中";
+
+"backup_s1_f" = "确定用户包";
+"backup_s1" = "确定已安装的插件";
+"backup_s2" = "收集插件的文件";
+"backup_s3" = "从文件构建Deb文件";
+"backup_s4" = "从Deb文件创建备份文件";
+
+"restore_s1" = "完成恢复前检查";
+"restore_s2" = "解压备份文件";
+"restore_s3" = "刷新越狱源源";
+"restore_s4" = "安装Deb文件";
+
+// BackupsVC
+"del_err_1" = "出现错误，无法删除";
+"del_err_2" = "";
+"info" = "信息";
+"rm_err_1" = "无法删除";
+"import_err_1" = "无法导入";
+
+// BackupManager
+"backup_err_1" = "未能生成已安装插件的控制文件！";
+"backup_err_2" = "未能生成插件列表！";
+"backup_err_3" = "为空";
+"backup_err_4" = "无内容";
+"backup_err_5" = "似乎没有";
+"backup_err_6" = "的控制文件";
+"backup_err_7" = "无法构建Deb文件！实在不知道出了什么问题。";
+
+// GenManager
+"error" = "错误";
+"gen_err_1" = "您的设备似乎未连接到互联网";
+"gen_err_2" = "恢复需要网络连接以便在需要时下载插件";
+"gen_err_3" = "无法创建";
+"gen_err_4" = "无法获取";
+"gen_err_5" = "无法写入";
+"gen_err_6" = "请确保目录所有者为mobile而非root";
+
+// RestoreManager
+"restore_err_1" = "备份文件夹不存在！";
+"restore_err_2" = "未找到备份文件！";
+"restore_err_3" = "目标备份文件";
+"restore_err_4" = "未找到";
+"restore_err_5" = "您正在尝试恢复的备份文件是针对使用";
+"bootstrap" = "引导包";
+"restore_err_6" = "您当前的越狱环境使用的是";
+"restore_err_7" = "为空";
+"restore_err_8" = "无Deb文件";
