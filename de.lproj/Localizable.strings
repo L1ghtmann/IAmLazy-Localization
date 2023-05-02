@@ -6,7 +6,7 @@
 "backup" = "Backup";
 "restore" = "Wiederherstellen";
 "created_by" = "Von Lightmann";
-// "credits" = "Credits";
+"credits" = "Credits";
 "backups" = "Backups";
 "go" = "Los!";
 
@@ -76,6 +76,7 @@
 "gen_err_4" = "Fehler beim Laden der Inhalte von";
 "gen_err_5" = "ist nicht beschreibbar";
 "gen_err_6" = "Bitte stelle sicher, dass der Besitzer des Ordners mobile ist";
+"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
 "restore_err_1" = "Das Backupverzeichnis existiert nicht!";

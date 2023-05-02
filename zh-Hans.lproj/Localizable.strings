@@ -76,6 +76,7 @@
 "gen_err_4" = "无法获取";
 "gen_err_5" = "无法写入";
 "gen_err_6" = "请确保目录所有者为mobile而非root";
+"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
 "restore_err_1" = "备份文件夹不存在！";

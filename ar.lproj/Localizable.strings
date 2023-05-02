@@ -76,6 +76,7 @@
 "gen_err_4" = "فشل في الحصول على محتويات";
 "gen_err_5" = "غير قابل للكتابة";
 "gen_err_6" = "الرجاء التأكد من أن مالك المجلد هو mobile وليس root";
+"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
 "restore_err_1" = "مجلد النسخة الإحتياطية غير موجود!";
