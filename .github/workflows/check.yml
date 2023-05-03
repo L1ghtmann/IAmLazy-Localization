@@ -9,9 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - name: Lint .strings
+      - name: Install rubustrings
         run: |
           sudo gem install rubustrings
+      - name: Lint .strings
+        run: |
           for i in **/*.strings; do
             # Check name
             if [[ $(dirname $i) != *.lproj || $(basename $i) != Localizable.strings ]]; then
@@ -31,5 +33,7 @@ jobs:
                 echo "ERROR: $count formatting error(s) in $i:"
                 cat "$status"
                 exit 1
+            else
+              echo "$i looks good!"
             fi
           done
