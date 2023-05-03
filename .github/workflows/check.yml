@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@main
       - name: Lint .strings
         run: |
-          gem install rubustrings
+          sudo gem install rubustrings
           for i in **/*.strings; do
             # Check name
             if [[ $(dirname $i) != *.lproj || $(basename $i) != Localizable.strings ]]; then
