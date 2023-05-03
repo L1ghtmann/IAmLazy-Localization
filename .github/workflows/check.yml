@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Strings lint
-        uses: dral3x/action-stringslint@main
+        uses: dral3x/action-stringslint@master
