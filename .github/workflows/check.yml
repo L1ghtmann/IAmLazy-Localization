@@ -1,0 +1,13 @@
+name: Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Strings lint
+        uses: dral3x/action-stringslint@main
