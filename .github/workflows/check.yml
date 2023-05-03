@@ -17,11 +17,16 @@ jobs:
           for i in **/*.strings; do
             # Check name
             if [[ $(dirname $i) != *.lproj || $(basename $i) != Localizable.strings ]]; then
-                echo "$i incorrectly named!"
+                echo "$i is incorrectly named!"
                 exit 1
             fi
 
             # Check format
+            ref=$(cat en.lproj/Localizable.strings | wc -l)
+            if [[ $(cat $i | wc -l) != $ref ]]; then
+                echo "$i's format doesn't match en.lproj/Localizable.strings!"
+                exit 1
+            fi
             status="$(dirname $i)/status"
             rubustrings "$i" | grep "Localizable.strings" | tail -n +2 > "$status"
             sed -i '/invalid format: \/\//d' "$status" # ignore comment formating
