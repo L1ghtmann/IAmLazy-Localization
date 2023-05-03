@@ -9,5 +9,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - name: Strings lint
-        uses: dral3x/action-stringslint@master
+      - name: Lint .strings
+        run: |
+          gem install rubustrings
+          for i in **/*.strings; do
+            # Check name
+            if [[ $(dirname $i) != *.lproj || $(basename $i) != Localizable.strings ]]; then
+                echo "$i incorrectly named!"
+                exit 1
+            fi
+
+            # Check format
+            status="$(dirname $i)/status"
+            rubustrings "$i" | grep "Localizable.strings" | tail -n +2 > "$status"
+            sed -i '/invalid format: \/\//d' "$status" # ignore comment formating
+            sed -i '/translation significantly large: /d' "$status" # ignore key-value size discrepancies
+
+            # Error out
+            count="$(cat "$status" | wc -l)"
+            if [[ $count > 0 ]]; then
+                echo "ERROR: $count formatting error(s) in $i:"
+                cat "$status"
+                exit 1
+            fi
+          done
