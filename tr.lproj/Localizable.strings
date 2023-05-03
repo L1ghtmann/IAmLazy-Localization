@@ -3,88 +3,84 @@
 //
 
 // RootVC
-"backup" = "Yedekle";
-"restore" = "Ykle";
-"created_by" = "Lightmann projesidir";
-"credits" = "Credits";
-"backups" = "Yedekler";
-"go" = "Devam";
+"Backup" = "Yedekle";
+"Restore" = "Ykle";
+"Created by Lightmann" = "Lightmann projesidir";
+"Credits" = "Credits";
+"Backups" = "Yedekler";
+"Go" = "Devam";
 
-"standard" = "Standart";
-"developer" = "Gelitirici";
-"latest" = "En son";
-"specific" = "Belirli";
+"Standard" = "Standart";
+"Developer" = "Gelitirici";
+"Latest" = "En son";
+"Specific" = "Belirli";
 
-"storage_msg" = "Devam etmeden nce ltfen yeterli depolama alannz oldunu dan emin olun:";
-"selection_msg" = "Yklemek istediniz yede sen:";
-"restore_confirmation" = "Bu yede yklemek istedinizden emin misiniz:";
-"yes" = "Evet";
-"no" = "Hayr";
-"note" = "Ltfen dikkat:";
-"bootstrap_warning" = "Gelitirici yedenden yklemek istiyorsunuz. Bu yedekleme, bootstrap paketleri de iriyor.";
-"bootstrap_confirmation" = "Bunu anladnz ve yine de ykleme ilemine devam etmek istedinizi ltfen onaylayn.";
+"Please confirm that you have adequate free storage before proceeding:" = "Devam etmeden nce ltfen yeterli depolama alannz oldunu dan emin olun:";
+"Choose the backup you'd like to restore from:" = "Yklemek istediniz yede sen:";
+"Are you sure that you want to restore from %@?" = "Bu yede yklemek istedinizden emin misiniz %@?";
+"Yes" = "Evet";
+"No" = "Hayr";
+"Please note:" = "Ltfen dikkat:";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "Gelitirici yedenden yklemek istiyorsunuz. Bu yedekleme, bootstrap paketleri de iriyor.";
+"Please confirm that you understand this and still wish to proceed with the restore" = "Bunu anladnz ve yine de ykleme ilemine devam etmek istedinizi ltfen onaylayn.";
 
-"confirm" = "Onayla";
-"cancel" = "Vazge;
+"Confirm" = "Onayla";
+"Cancel" = "Vazge";
 
-"success" = "Tweak yedekleme bu sre inde tamamland:";
-"seconds" = "saniye";
-"backup_loc" = "Yedekleri bu klasrde bulabilirsiniz:";
-"post_restore" = "Yedek sonras komut sen:";
-"none" = "Yok";
-"export" = "Aktar";
-"ok" = "Tamam";
+"Tweak backup completed successfully in %@ seconds!" = "Tweak yedekleme bu sre inde tamamland %@ saniye!";
+"Your backup can be found in\n%@" = "Yedekleri bu klasrde bulabilirsiniz\n%@";
+"Choose a post-restore command:" = "Yedek sonras komut sen:";
+"None" = "Yok";
+"Export" = "Aktar";
+"Okay" = "Tamam";
 
 // ProgressVC
-"progress" = "erleme";
-"waiting" = "Bekliyor";
-"completed" = "Tamamland";
-"in-progress" = "Srdrlyor";
+"Progress" = "erleme";
+"Waiting" = "Bekliyor";
+"Completed" = "Tamamland";
+"In-progress" = "Srdrlyor";
 
-"backup_s1_f" = "Kullanc paketleri derlendiriliyor";
-"backup_s1" = "Kurulu paketler derlendiriliyor";
-"backup_s2" = "Paket dosyalar alnyor";
-"backup_s3" = "Dosyalardan deb paketleri oluturuluyor";
-"backup_s4" = "deb paketlerinden yedek oluturuluyor";
+"Determining user packages" = "Kullanc paketleri derlendiriliyor";
+"Determining installed packages" = "Kurulu paketler derlendiriliyor";
+"Gathering files for packages" = "Paket dosyalar alnyor";
+"Building debs from files" = "Dosyalardan deb paketleri oluturuluyor";
+"Creating backup from debs" = "deb paketlerinden yedek oluturuluyor";
 
-"restore_s1" = "Ykleme ncesi kontroller yaplyor";
-"restore_s2" = "Yedekler paketten kartlyor";
-"restore_s3" = "APT kaynaklar yenileniyor";
-"restore_s4" = "deb paketleri ykleniyor";
+"Completing pre-restore checks" = "Ykleme ncesi kontroller yaplyor";
+"Unpacking backup" = "Yedekler paketten kartlyor";
+"Refreshing APT sources" = "APT kaynaklar yenileniyor";
+"Installing debs" = "deb paketleri ykleniyor";
 
 // BackupsVC
-"del_err_1" = "Hata olutu ve";
-"del_err_2" = "silinemedi";
-"info" = "Detay";
-"rm_err_1" = "silinemiyor";
-"import_err_1" = "i aktarlamad";
+"An error occured and %@ was not deleted!" = "Hata olutu ve %@ silinemedi!";
+"Info: %@" = "Detay: %@";
+"%@ cannot be deleted?!" = "%@ silinemiyor?!";
+"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
 
 // BackupManager
-"backup_err_1" = "Kurulu paketler in kontrol oluturulamad!";
-"backup_err_2" = "Paket listesi oluturulamad!";
-"backup_err_3" = "bo";
-"backup_err_4" = "iri sahip del";
-"backup_err_5" = "Bu  in kontrol bulunmuyor:";
-"backup_err_6" = "Bu nin kontrol";
-"backup_err_7" = "deb paketi oluturulamad! Nedeni tespit edilemedi.";
+"Failed to generate controls for installed packages!" = "Kurulu paketler in kontrol oluturulamad!";
+"Failed to generate list of packages!" = "Paket listesi oluturulamad!";
+"%@ is blank?!" = "%@ bo?!";
+"%@ has no contents!" = "%@ iri sahip del!";
+"There appear to be no controls for %@?!" = "Bu  in kontrol bulunmuyor %@?!";
+"The control for" = "Bu nin kontrol";
+"Failed to build debs! Not sure how we got here honestly." = "deb paketi oluturulamad! Nedeni tespit edilemedi.";
 
 // GenManager
-"error" = "Hata";
-"gen_err_1" = "Cihaznz internete ba grnmyor";
-"gen_err_2" = "Paketlerin indirilebilip yklenmesi in abaants gerekli olabilir.";
-"gen_err_3" = "e oluturulamad";
-"gen_err_4" = "e iri bulunamad";
-"gen_err_5" = "dizinine yazma izniniz bulunmuyor";
-"gen_err_6" = "Dizin sahibinin mobile oldundan ve root olmadndan ltfen emin olun";
-"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"IAmLazy Error:" = "IAmLazy Hata:";
+"Your device does not appear to be connected to the internet" = "Cihaznz internete ba grnmyor";
+"A network connection is required for restores so packages can be downloaded if need be" = "Paketlerin indirilebilip yklenmesi in abaants gerekli olabilir.";
+"Failed to create %@!" = "e oluturulamad %@!";
+"Failed to get contents of %@!" = "e iri bulunamad %@!";
+"%@ is not writeable." = "%@ dizinine yazma izniniz bulunmuyor.";
+"Please ensure that the directory's owner is mobile and not root." = "Dizin sahibinin mobile oldundan ve root olmadndan ltfen emin olun.";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
-"restore_err_1" = "Yedekleme dizini mevcut del!";
-"restore_err_2" = "Yedek bulunamad!";
-"restore_err_3" = "Belirtilen yedek";
-"restore_err_4" = "bulunamad";
-"restore_err_5" = "Yklemeye ltnz yedek, bu yi kullanan jailbreak'ler indir";
-"bootstrap" = "bootstrap";
-"restore_err_6" = "Kullandnz jailbreak";
-"restore_err_7" = "bo";
-"restore_err_8" = "deb yok";
+"The backup dir does not exist!" = "Yedekleme dizini mevcut del!";
+"No backups were found!" = "Yedek bulunamad!";
+"The target backup -- %@ -- could not be found!" = "Belirtilen yedek -- %@ -- bulunamad!";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "Yklemeye ltnz yedek, bu yi kullanan jailbreak'ler indir %@ bootstrap.";
+"Your current jailbreak is using %@!" = "Kullandnz jailbreak %@!";
+"%@ is empty?!" = "%@ bo?!";
+"%@ has no debs!" = "%@ deb yok!";

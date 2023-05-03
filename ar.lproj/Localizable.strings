@@ -3,88 +3,84 @@
 //
 
 // RootVC
-"backup" = "أخِذ نسخة إحتياطية";
-"restore" = "إستعادة النسخة الإحتياطية";
-"created_by" = "تم تطويره من قبل Lightmann";
-"credits" = "شكر خاص الى";
-"backups" = "النسخ الإحتياطية";
-"go" = "إذهب";
+"Backup" = "أخِذ نسخة إحتياطية";
+"Restore" = "إستعادة النسخة الإحتياطية";
+"Created by Lightmann" = "تم تطويره من قبل Lightmann";
+"Credits" = "شكر خاص الى";
+"Backups" = "النسخ الإحتياطية";
+"Go" = "إذهب";
 
-"standard" = "قياسي";
-"developer" = "المطور";
-"latest" = "الأحدث";
-"specific" = "محدد";
+"Standard" = "قياسي";
+"Developer" = "المطور";
+"Latest" = "الأحدث";
+"Specific" = "محدد";
 
-"storage_msg" = "الرجاء التأكد من أن لديك مساحة تخزين كافية قبل المتابعة:";
-"selection_msg" = "إختر النسخة الإحتياطية التي ترغب بأستعادتها:";
-"restore_confirmation" = "هل أنت متأكد من رغبتك في الإستعادة من";
-"yes" = "نعم";
-"no" = "لا";
-"note" = "الرجاء الملاحظة:";
-"bootstrap_warning" = "لقد إخترت إسترجاع نسخة إحتياطية خاصة،  تحتوي على حزم تمهيد التشغيل bootstrap.";
-"bootstrap_confirmation" = "الرجاء التأكيد أنك تفهم هذا،  ولا تزال ترغب في المتابعة";
+"Please confirm that you have adequate free storage before proceeding:" = "الرجاء التأكد من أن لديك مساحة تخزين كافية قبل المتابعة:";
+"Choose the backup you'd like to restore from:" = "إختر النسخة الإحتياطية التي ترغب بأستعادتها:";
+"Are you sure that you want to restore from %@?" = "هل أنت متأكد من رغبتك في الإستعادة من %@?";
+"Yes" = "نعم";
+"No" = "لا";
+"Please note:" = "الرجاء الملاحظة:";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "لقد إخترت إسترجاع نسخة إحتياطية خاصة،  تحتوي على حزم تمهيد التشغيل bootstrap.";
+"Please confirm that you understand this and still wish to proceed with the restore" = "الرجاء التأكيد أنك تفهم هذا،  ولا تزال ترغب في المتابعة";
 
-"confirm" = "تأكيد";
-"cancel" = "إلغاء";
+"Confirm" = "تأكيد";
+"Cancel" = "إلغاء";
 
-"success" = "تم إتمام اخذ النسخة الإحتياطية بنجاح في";
-"seconds" = "ثواني";
-"backup_loc" = "يمكنك إيجاد نسختك الإحتياطية في";
-"post_restore" = "إختر تنفيذ أمر ما بعد الإستعادة:";
-"none" = "بلا";
-"export" = "تصدير";
-"ok" = "موافق";
+"Tweak backup completed successfully in %@ seconds!" = "تم إتمام اخذ النسخة الإحتياطية بنجاح في ثواني %@!";
+"Your backup can be found in\n%@" = "يمكنك إيجاد نسختك الإحتياطية في\n%@";
+"Choose a post-restore command:" = "إختر تنفيذ أمر ما بعد الإستعادة:";
+"None" = "بلا";
+"Export" = "تصدير";
+"Okay" = "موافق";
 
 // ProgressVC
-"progress" = "العمل";
-"waiting" = "إنتظار";
-"completed" = "مكتمل";
-"in-progress" = "قيد العمل";
+"Progress" = "العمل";
+"Waiting" = "إنتظار";
+"Completed" = "مكتمل";
+"In-progress" = "قيد العمل";
 
-"backup_s1_f" = "تحديد حزم المستخدم";
-"backup_s1" = "تحديد الحزم المثبتة";
-"backup_s2" = "تجميع الملفات الخاصة بالحزم";
-"backup_s3" = "إنشاء ملفات debs";
-"backup_s4" = "إنشاء نسخة إحتياطية من ملفات debs";
+"Determining user packages" = "تحديد حزم المستخدم";
+"Determining installed packages" = "تحديد الحزم المثبتة";
+"Gathering files for packages" = "تجميع الملفات الخاصة بالحزم";
+"Building debs from files" = "إنشاء ملفات debs";
+"Creating backup from debs" = "إنشاء نسخة إحتياطية من ملفات debs";
 
-"restore_s1" = "إستكمال فحوصات ما قبل الإستعادة";
-"restore_s2" = "فك ضغط النسخة الإحتياطية";
-"restore_s3" = "تحديث مصادر APT";
-"restore_s4" = "تثبيت ملفات debs";
+"Completing pre-restore checks" = "إستكمال فحوصات ما قبل الإستعادة";
+"Unpacking backup" = "فك ضغط النسخة الإحتياطية";
+"Refreshing APT sources" = "تحديث مصادر APT";
+"Installing debs" = "تثبيت ملفات debs";
 
 // BackupsVC
-"del_err_1" = "حدث خطأ و";
-"del_err_2" = "لم يتم حذفها";
-"info" = "معلومات";
-"rm_err_1" = "لا يمكن حذفها";
-"import_err_1" = "تعذر إستيرادها";
+"An error occured and %@ was not deleted!" = "حدث خطأ و %@ لم يتم حذفها!";
+"Info: %@" = "معلومات: %@";
+"%@ cannot be deleted?!" = "%@ لا يمكن حذفها?!";
+"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
 
 // BackupManager
-"backup_err_1" = "فشل إنشاء عناصر التحكم للحزم المثبتة!";
-"backup_err_2" = "فشل إنشاء قائمة الحزم!";
-"backup_err_3" = "فارغ";
-"backup_err_4" = "لا يوجد محتويات";
-"backup_err_5" = "يبدو إنه لا يوجد ملف التحكم";
-"backup_err_6" = "ملف التحكم";
-"backup_err_7" = "فشل إنشاء ملفات debs! لست متأكد كيف وصلنا الى هنا.";
+"Failed to generate controls for installed packages!" = "فشل إنشاء عناصر التحكم للحزم المثبتة!";
+"Failed to generate list of packages!" = "فشل إنشاء قائمة الحزم!";
+"%@ is blank?!" = "%@ فارغ?!";
+"%@ has no contents!" = "%@ لا يوجد محتويات!";
+"There appear to be no controls for %@?!" = "يبدو إنه لا يوجد ملف التحكم %@?!";
+"The control for" = "ملف التحكم";
+"Failed to build debs! Not sure how we got here honestly." = "فشل إنشاء ملفات debs! لست متأكد كيف وصلنا الى هنا.";
 
 // GenManager
-"error" = "خطأ";
-"gen_err_1" = "يبدو أن جهازك غير متصل بالإنترنت";
-"gen_err_2" = "إتصال بالشبكة مطلوب إذا تطلب الأمر،  من أجل تحميل الحزم ";
-"gen_err_3" = "فشل الإنشاء";
-"gen_err_4" = "فشل في الحصول على محتويات";
-"gen_err_5" = "غير قابل للكتابة";
-"gen_err_6" = "الرجاء التأكد من أن مالك المجلد هو mobile وليس root";
-"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"IAmLazy Error:" = "IAmLazy خطأ:";
+"Your device does not appear to be connected to the internet" = "يبدو أن جهازك غير متصل بالإنترنت";
+"A network connection is required for restores so packages can be downloaded if need be" = "إتصال بالشبكة مطلوب إذا تطلب الأمر،  من أجل تحميل الحزم";
+"Failed to create %@!" = "فشل الإنشاء %@!";
+"Failed to get contents of %@!" = "فشل في الحصول على محتويات %@!";
+"%@ is not writeable." = "%@ غير قابل للكتابة.";
+"Please ensure that the directory's owner is mobile and not root." = "الرجاء التأكد من أن مالك المجلد هو mobile وليس root.";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
-"restore_err_1" = "مجلد النسخة الإحتياطية غير موجود!";
-"restore_err_2" = "لم يتم إيجاد نسخ إحتياطية";
-"restore_err_3" = "مسار النسخة الإحتياطية ";
-"restore_err_4" = "تعذر العثور عليها";
-"restore_err_5" = "النسخة الإحتياطية التي تحاول الإسترجاع منها،  تم إنشاؤها من أجل الجيلبريك بأستخدام";
-"bootstrap" = "تمهيد التشغيل bootstrap";
-"restore_err_6" = "الجيلبربك الحالي بك يستخدم";
-"restore_err_7" = "فارع";
-"restore_err_8" = "لا يوجد به debs";
+"The backup dir does not exist!" = "مجلد النسخة الإحتياطية غير موجود!";
+"No backups were found!" = "لم يتم إيجاد نسخ إحتياطية";
+"The target backup -- %@ -- could not be found!" = "مسار النسخة الإحتياطية -- %@ -- تعذر العثور عليها!";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "النسخة الإحتياطية التي تحاول الإسترجاع منها،  تم إنشاؤها من أجل الجيلبريك بأستخدام %@ تمهيد التشغيل bootstrap.";
+"Your current jailbreak is using %@!" = "الجيلبربك الحالي بك يستخدم %@!";
+"%@ is empty?!" = "%@ فارع?!";
+"%@ has no debs!" = "%@ لا يوجد به debs!";

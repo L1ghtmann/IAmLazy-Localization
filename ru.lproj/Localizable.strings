@@ -3,88 +3,84 @@
 //
 
 // RootVC
-"backup" = "Резервное копирование";
-"restore" = "восстановить";
-"created_by" = "Создано Лайтманном";
-"credits" = "Кредиты";
-"backups" = "Резервные копии";
-"go" = "Go";
+"Backup" = "Резервное копирование";
+"Restore" = "восстановить";
+"Created by Lightmann" = "Создано Лайтманном";
+"Credits" = "Кредиты";
+"Backups" = "Резервные копии";
+"Go" = "Go";
 
-"standard" = "стандартный";
-"developer" = "Разработчик";
-"latest" = "Последний";
-"specific" = "Специфический";
+"Standard" = "стандартный";
+"Developer" = "Разработчик";
+"Latest" = "Последний";
+"Specific" = "Специфический";
 
-"storage_msg" = "Прежде чем продолжить, убедитесь, что у вас достаточно свободного места на диске:";
-"selection_msg" = "Выберите резервную копию, из которой вы хотите восстановить:";
-"restore_confirmation" = "Вы уверены, что хотите восстановить из";
-"yes" = "да";
-"no" = "нет";
-"note" = "Пожалуйста, обрати внимание:";
-"bootstrap_warning" = "Вы выбрали восстановление из резервной копии разработчика. Эта резервная копия включает пакеты начальной загрузки.";
-"bootstrap_confirmation" = "Пожалуйста, подтвердите, что вы понимаете это и все еще хотите продолжить восстановление";
+"Please confirm that you have adequate free storage before proceeding:" = "Прежде чем продолжить, убедитесь, что у вас достаточно свободного места на диске:";
+"Choose the backup you'd like to restore from:" = "Выберите резервную копию, из которой вы хотите восстановить:";
+"Are you sure that you want to restore from %@?" = "Вы уверены, что хотите восстановить из %@?";
+"Yes" = "да";
+"No" = "нет";
+"Please note:" = "Пожалуйста, обрати внимание:";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "Вы выбрали восстановление из резервной копии разработчика. Эта резервная копия включает пакеты начальной загрузки.";
+"Please confirm that you understand this and still wish to proceed with the restore" = "Пожалуйста, подтвердите, что вы понимаете это и все еще хотите продолжить восстановление";
 
-"confirm" = "подтверждать";
-"cancel" = "отмена";
+"Confirm" = "подтверждать";
+"Cancel" = "отмена";
 
-"success" = "Резервное копирование твика успешно завершено в";
-"seconds" = "секунды";
-"backup_loc" = "Ваша резервная копия может быть найдена в";
-"post_restore" = "Выберите команду после восстановления:";
-"none" = "никто";
-"export" = "Экспорт";
-"ok" = "Хорошо";
+"Tweak backup completed successfully in %@ seconds!" = "Резервное копирование твика успешно завершено в %@ секунды!";
+"Your backup can be found in\n%@" = "Ваша резервная копия может быть найдена в\n%@";
+"Choose a post-restore command:" = "Выберите команду после восстановления:";
+"None" = "никто";
+"Export" = "Экспорт";
+"Okay" = "Хорошо";
 
 // ProgressVC
-"progress" = "Прогресс";
-"waiting" = "Ожидающий";
-"completed" = "Завершенный";
-"in-progress" = "В ходе выполнения";
+"Progress" = "Прогресс";
+"Waiting" = "Ожидающий";
+"Completed" = "Завершенный";
+"In-progress" = "В ходе выполнения";
 
-"backup_s1_f" = "Определение пользовательских пакетов";
-"backup_s1" = "Определение установленных пакетов";
-"backup_s2" = "Сбор файлов для пакетов";
-"backup_s3" = "Сборка .debs из файлов";
-"backup_s4" = "Создание резервной копии из .debs";
+"Determining user packages" = "Определение пользовательских пакетов";
+"Determining installed packages" = "Определение установленных пакетов";
+"Gathering files for packages" = "Сбор файлов для пакетов";
+"Building debs from files" = "Сборка .debs из файлов";
+"Creating backup from debs" = "Создание резервной копии из .debs";
 
-"restore_s1" = "Выполнение проверок перед восстановлением";
-"restore_s2" = "Распаковка резервной копии";
-"restore_s3" = "Обновление источников APT";
-"restore_s4" = "Установка .debs";
+"Completing pre-restore checks" = "Выполнение проверок перед восстановлением";
+"Unpacking backup" = "Распаковка резервной копии";
+"Refreshing APT sources" = "Обновление источников APT";
+"Installing debs" = "Установка .debs";
 
 // BackupsVC
-"del_err_1" = "Произошла ошибка и";
-"del_err_2" = "не был удален";
-"info" = "Информация";
-"rm_err_1" = "нельзя удалить";
-"import_err_1" = "не мог быть импортирован";
+"An error occured and %@ was not deleted!" = "Произошла ошибка и %@ не был удален!";
+"Info: %@" = "ИнформацияL %@";
+"%@ cannot be deleted?!" = "%@ нельзя удалить?!";
+"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
 
 // BackupManager
-"backup_err_1" = "Не удалось сгенерировать элементы управления для установленных пакетов!";
-"backup_err_2" = "Не удалось создать список пакетов!";
-"backup_err_3" = "пусто";
-"backup_err_4" = "не имеет содержания";
-"backup_err_5" = "Кажется, что нет никаких элементов управления для";
-"backup_err_6" = "Контроль за";
-"backup_err_7" = "Не удалось собрать .debs! Честно говоря, не знаю, как мы сюда попали.";
+"Failed to generate controls for installed packages!" = "Не удалось сгенерировать элементы управления для установленных пакетов!";
+"Failed to generate list of packages!" = "Не удалось создать список пакетов!";
+"%@ is blank?!" = "%@ пусто?!";
+"%@ has no contents!" = "%@ не имеет содержания!";
+"There appear to be no controls for %@?!" = "Кажется, что нет никаких элементов управления для %@?!";
+"The control for" = "Контроль за";
+"Failed to build debs! Not sure how we got here honestly." = "Не удалось собрать .debs! Честно говоря, не знаю, как мы сюда попали.";
 
 // GenManager
-"error" = "Ошибка";
-"gen_err_1" = "Ваше устройство не подключено к Интернету";
-"gen_err_2" = "Для восстановления требуется сетевое подключение, поэтому при необходимости можно загрузить пакеты.";
-"gen_err_3" = "Не удалось создать";
-"gen_err_4" = "Не удалось получить содержимое";
-"gen_err_5" = "не записываемый";
-"gen_err_6" = "Убедитесь, что владельцем каталога является мобильный телефон, а не пользователь root.";
-"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"IAmLazy Error:" = "IAmLazy Ошибка:";
+"Your device does not appear to be connected to the internet" = "Ваше устройство не подключено к Интернету";
+"A network connection is required for restores so packages can be downloaded if need be" = "Для восстановления требуется сетевое подключение, поэтому при необходимости можно загрузить пакеты.";
+"Failed to create %@!" = "Не удалось создать %@!";
+"Failed to get contents of %@!" = "Не удалось получить содержимое %@!";
+"%@ is not writeable." = "%@ не записываемый.";
+"Please ensure that the directory's owner is mobile and not root." = "Убедитесь, что владельцем каталога является мобильный телефон, а не пользователь root.";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
-"restore_err_1" = "Резервный каталог не существует!";
-"restore_err_2" = "Резервных копий не найдено!";
-"restore_err_3" = "Целевая резервная копия";
-"restore_err_4" = "невозможно найти";
-"restore_err_5" = "Резервная копия, которую вы пытаетесь восстановить, была сделана для джейлбрейка с использованием";
-"bootstrap" = "начальная загрузка";
-"restore_err_6" = "Ваш текущий джейлбрейк использует";
-"restore_err_7" = "пусто";
-"restore_err_8" = "не имеет .debs";
+"The backup dir does not exist!" = "Резервный каталог не существует!";
+"No backups were found!" = "Резервных копий не найдено!";
+"The target backup -- %@ -- could not be found!" = "Целевая резервная копия -- %@ -- невозможно найти!";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "Резервная копия, которую вы пытаетесь восстановить, была сделана для джейлбрейка с использованием %@ начальная загрузка.";
+"Your current jailbreak is using %@!" = "Ваш текущий джейлбрейк использует %@!";
+"%@ is empty?!" = "%@ пусто?!";
+"%@ has no debs!" = "%@ не имеет .debs!";

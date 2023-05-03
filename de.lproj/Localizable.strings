@@ -3,88 +3,84 @@
 //
 
 // RootVC
-"backup" = "Backup";
-"restore" = "Wiederherstellen";
-"created_by" = "Von Lightmann";
-"credits" = "Credits";
-"backups" = "Backups";
-"go" = "Los!";
+"Backup" = "Backup";
+"Restore" = "Wiederherstellen";
+"Created by Lightmann" = "Von Lightmann";
+"Credits" = "Credits";
+"Backups" = "Backups";
+"Go" = "Los!";
 
-"standard" = "Standard";
-"developer" = "Entwickler";
-"latest" = "Neuestes";
+"Standard" = "Standard";
+"Developer" = "Entwickler";
+"Latest" = "Neuestes";
 "specific" = "Speziell";
 
 "storage_msg" = "Bitte stelle sicher, dass ausreichend freier Speicher verfügbar ist:";
 "selection_msg" = "Wähle das wiederherzustellende Backup:";
-"restore_confirmation" = "Möchtest du das folgende Backup wirklich wiederherstellen";
-"yes" = "Ja";
-"no" = "Nein";
-"note" = "Wichtig:";
-"bootstrap_warning" = "Du hast entschieden ein Entwickler Backup wiederherzustellen. Dieses enthält Bootstrap Pakete.";
-"bootstrap_confirmation" = "Bitte bestätige deine Auswahl.";
+"Are you sure that you want to restore from %@?" = "Möchtest du das folgende Backup wirklich wiederherstellen %@?";
+"Yes" = "Ja";
+"No" = "Nein";
+"Please note:" = "Wichtig:";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "Du hast entschieden ein Entwickler Backup wiederherzustellen. Dieses enthält Bootstrap Pakete.";
+"Please confirm that you understand this and still wish to proceed with the restore" = "Bitte bestätige deine Auswahl.";
 
-"confirm" = "Bestätigen";
-"cancel" = "Abbrechen";
+"Confirm" = "Bestätigen";
+"Cancel" = "Abbrechen";
 
-"success" = "Tweak Backup erfolgreich abgeschlossen in";
-"seconds" = "Sekunden";
-"backup_loc" = "Backup gespeichert in";
-"post_restore" = "Wähle einen Post-Wiederherstellungsbefehl:";
-"none" = "Keiner";
-"export" = "Exportieren";
-"ok" = "Okay";
+"Tweak backup completed successfully in %@ seconds!" = "Tweak Backup erfolgreich abgeschlossen in %@ Sekunden!";
+"Your backup can be found in\n%@" = "Backup gespeichert in\n%@";
+"Choose a post-restore command:" = "Wähle einen Post-Wiederherstellungsbefehl:";
+"None" = "Keiner";
+"Export" = "Exportieren";
+"Okay" = "Okay";
 
 // ProgressVC
-"progress" = "Fortschritt";
-"waiting" = "Warten";
-"completed" = "Abgeschlossen";
-"in-progress" = "In Arbeit";
+"Progress" = "Fortschritt";
+"Waiting" = "Warten";
+"Completed" = "Abgeschlossen";
+"In-progress" = "In Arbeit";
 
-"backup_s1_f" = "Erkennen von Benutzerpaketen";
-"backup_s1" = "Erkennen der installierten Pakete";
-"backup_s2" = "Sammeln der Paketdateien";
-"backup_s3" = "Pakete werden gebaut";
-"backup_s4" = "Backup der Pakete wird erstellt";
+"Determining user packages" = "Erkennen von Benutzerpaketen";
+"Determining installed packages" = "Erkennen der installierten Pakete";
+"Gathering files for packages" = "Sammeln der Paketdateien";
+"Building debs from files" = "Pakete werden gebaut";
+"Creating backup from debs" = "Backup der Pakete wird erstellt";
 
-"restore_s1" = "Abschließen der Wiederherstellungsvorüberprüfung";
-"restore_s2" = "Entpacken des Backups";
-"restore_s3" = "Neuladen der APT Quellen";
-"restore_s4" = "Installiere Pakete";
+"Completing pre-restore checks" = "Abschließen der Wiederherstellungsvorüberprüfung";
+"Unpacking backup" = "Entpacken des Backups";
+"Refreshing APT sources" = "Neuladen der APT Quellen";
+"Installing debs" = "Installiere Pakete";
 
 // BackupsVC
-"del_err_1" = "Ein Fehler ist aufgetreten und";
-"del_err_2" = "wurde nicht entfernt";
-"info" = "Info";
-"rm_err_1" = "konnte nicht entfernt werden";
-"import_err_1" = "konnte nicht importiert werden";
+"An error occured and %@ was not deleted!" = "Ein Fehler ist aufgetreten und %@ wurde nicht entfernt!";
+"Info: %@" = "Info: %@";
+"%@ cannot be deleted?!" = "%@ konnte nicht entfernt werden?!";
+"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
 
 // BackupManager
-"backup_err_1" = "Fehler beim erstellen der Kontrolldateien!";
-"backup_err_2" = "Fehler beim erstellen der Paketliste!";
-"backup_err_3" = "ist leer";
-"backup_err_4" = "hat keinen Inhalt";
-"backup_err_5" = "Es scheint keine Kotrolldatei zu geben für";
-"backup_err_6" = "Die Kontrolldatei für";
-"backup_err_7" = "Fehler beim bauen der Pakete! Keiner weiß wie das passieren konnte.";
+"Failed to generate controls for installed packages!" = "Fehler beim erstellen der Kontrolldateien!";
+"Failed to generate list of packages!" = "Fehler beim erstellen der Paketliste!";
+"%@ is blank?!" = "%@ ist leer?!";
+"%@ has no contents!" = "%@ hat keinen Inhalt!";
+"There appear to be no controls for %@?!" = "Es scheint keine Kotrolldatei zu geben für %@?!";
+"The control for" = "Die Kontrolldatei für";
+"Failed to build debs! Not sure how we got here honestly." = "Fehler beim bauen der Pakete! Keiner weiß wie das passieren konnte.";
 
 // GenManager
-"error" = "Fehler";
-"gen_err_1" = "Es konnte keine Verbindung zum Internet hergestellt werden";
-"gen_err_2" = "Eine Netzwerkverbindung ist notwending zum Wiederherstellen von Paketen";
-"gen_err_3" = "Fehler beim erstellen von";
-"gen_err_4" = "Fehler beim Laden der Inhalte von";
-"gen_err_5" = "ist nicht beschreibbar";
-"gen_err_6" = "Bitte stelle sicher, dass der Besitzer des Ordners mobile ist";
-"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"IAmLazy Error:" = "IAmLazy Fehler:";
+"Your device does not appear to be connected to the internet" = "Es konnte keine Verbindung zum Internet hergestellt werden";
+"A network connection is required for restores so packages can be downloaded if need be" = "Eine Netzwerkverbindung ist notwending zum Wiederherstellen von Paketen";
+"Failed to create %@!" = "Fehler beim erstellen von %@!";
+"Failed to get contents of %@!" = "Fehler beim Laden der Inhalte von %@!";
+"%@ is not writeable." = "%@ ist nicht beschreibbar.";
+"Please ensure that the directory's owner is mobile and not root." = "Bitte stelle sicher, dass der Besitzer des Ordners mobile ist.";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
-"restore_err_1" = "Das Backupverzeichnis existiert nicht!";
-"restore_err_2" = "Es wurden keine Backups gefunden!";
-"restore_err_3" = "Das Backup";
-"restore_err_4" = "konnte nicht gefunden werden";
-"restore_err_5" = "Das wiederherzustellende Backup wurde erstellt für Jailbreaks mit dem";
-"bootstrap" = "Bootstrap";
-"restore_err_6" = "Dein aktueller Jailbreak nutzt";
-"restore_err_7" = "ist leer";
-"restore_err_8" = "enthält keine Pakete";
+"The backup dir does not exist!" = "Das Backupverzeichnis existiert nicht!";
+"No backups were found!" = "Es wurden keine Backups gefunden!";
+"The target backup -- %@ -- could not be found!" = "Das Backup -- %@ konnte nicht gefunden werden!";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "Das wiederherzustellende Backup wurde erstellt für Jailbreaks mit dem %@ bootstrap.";
+"Your current jailbreak is using %@!" = "Dein aktueller Jailbreak nutzt %@!";
+"%@ is empty?!" = "%@ ist leer?!";
+"%@ has no debs!" = "%@ enthält keine Pakete!";

@@ -3,103 +3,84 @@
 //
 
 // RootVC
-"backup" = "バクアップ"
-"restore" = "戻す"
-"created_by" = "作者: Lightmann"
-"credits" = "クレジット"
-// literally 'backup list' to differentiate between バクアップ (backup)
-"backups" = "バクアップリスト"
-"go" = "Go"
+"Backup" = "バクアップ";
+"Restore" = "戻す";
+"Created by Lightmann" = "作者: Lightmann";
+"Credits" = "クレジット";
+"Backups" = "バクアップリスト";
+"Go" = "Go";
 
-"standard" = "普通版"
-"developer" = "デベロッパー版"
-"latest" = "最近版"
-// literally 'select another version' because that's what you're doing
-"specific" = "別の版を選択"
+"Standard" = "普通版";
+"Developer" = "デベロッパー版";
+"Latest" = "最近版";
+"Specific" = "別の版を選択";
 
-"storage_msg" = "進む前にデータが不足じゃないことを確認してください:"
+"Please confirm that you have adequate free storage before proceeding:" = "進む前にデータが不足じゃないことを確認してください:";
+"Choose the backup you'd like to restore from:" = "バクアップリストの中から戻したいバクアップを選択してください:";
+"Are you sure that you want to restore from %@?" = "このバクアップから本当に戻したいですか %@?";
+"Yes" = "はい";
+"No" = "いいえ";
+"Please note:" = "これを読んでください:";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "あなたはデベロッパーバクアップから戻すことを選択しました。このバクアップにはブートストラップパッケージがあります。";
+"Please confirm that you understand this and still wish to proceed with the restore" = "前の読んだことが分かって、まだ戻したいことを確認してください。";
 
-"selection_msg" = "バクアップリストの中から戻したいバクアップを選択してください:"
-// literally 'would you like to restore from this backup', japanese word order is different so it makes things a little tricky
-"restore_confirmation" = "このバクアップから本当に戻したいですか"
-"yes" = "はい"
-"no" = "いいえ"
-// not sure what context this is being used in so i just said 'please read this'
-"note" = "これを読んでください:"
-"bootstrap_warning" = "あなたはデベロッパーバクアップから戻すことを選択しました。このバクアップにはブートストラップパッケージがあります。"
-"bootstrap_confirmation" = "前の読んだことが分かって、まだ戻したいことを確認してください。"
+"Confirm" = "確認";
+"Cancel" = "キャンセル";
 
-"confirm" = "確認"
-"cancel" = "キャンセル"
-
-"success" = "ツィーグのバクアップは"
-// japanese word order is different so i had to add the 'succesfully completed' part in after the seconds part
-"seconds" = "秒に完了しました"
-"backup_loc" = "あなたのバクアップはこのところで見つけられます"
-"post_restore" = "戻す後のコマンドを選択してください:"
-"none" = "ない"
-"export" = "エクスポート"
-"ok" = "OK"
+"Tweak backup completed successfully in %@ seconds!" = "ツィーグのバクアップは %@ 秒に完了しました!";
+"Your backup can be found in\n%@" = "あなたのバクアップはこのところで見つけられます\n%@";
+"Choose a post-restore command:" = "戻す後のコマンドを選択してください:";
+"None" = "ない";
+"Export" = "エクスポート";
+"Okay" = "Okay";
 
 // ProgressVC
-"progress" = "進行"
-"waiting" = "待っています"
-"completed" = "完了しました"
-// not sure what is being done 'in-progress' here so i just went very nondescript with it, hopefully it works
-"in-progress" = "進行中"
+"Progress" = "進行";
+"Waiting" = "待っています";
+"Completed" = "完了しました";
+"In-progress" = "進行中";
 
-"backup_s1_f" = "ユーザーパッケージを見つけています"
-"backup_s1" = "インストールしたパッケージを見つけています"
-// i just said 'in order to make packages' because that's what's happening here right?
-"backup_s2" = "パッケージを作るため、ファイルを見つけています"
-"backup_s3" = "ファイルからdebsを作っています"
-"backup_s4" = "debsからバクアップを作っています"
+"Determining user packages" = "ユーザーパッケージを見つけています";
+"Determining installed packages" = "インストールしたパッケージを見つけています";
+"Gathering files for packages" = "パッケージを作るため、ファイルを見つけています";
+"Building debs from files" = "ファイルからdebsを作っています";
+"Creating backup from debs" = "debsからバクアップを作っています";
 
-"restore_s1" = "戻す前のチェックをしています"
-"restore_s2" = "バクアップを開いています"
-"restore_s3" = "APTのソースをリフレッシュしています"
-"restore_s4" = "debsをインストールしています"
+"Completing pre-restore checks" = "戻す前のチェックをしています";
+"Unpacking backup" = "バクアップを開いています";
+"Refreshing APT sources" = "APTのソースをリフレッシュしています";
+"Installing debs" = "debsをインストールしています";
 
 // BackupsVC
-"del_err_1" = "エーラがありまして"
-"del_err_2" = "は消しませんでした"
-"info" = "インフォ"
-"rm_err_1" = "は消せませんでした"
-"import_err_1" = "インポートできませんでした"
+"An error occured and %@ was not deleted!" = "エーラがありまして %@ は消しませんでした!";
+"Info: %@" = "インフォ: %@";
+"%@ cannot be deleted?!" = "%@ は消せませんでした?!";
+"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
 
 // BackupManager
-"backup_err_1" = "インストールしたパッケージのコントロールを作られませんでした！"
-"backup_err_2" = "パッケージリストを作られませんでした！"
-"backup_err_3" = "はブランクです"
-"backup_err_4" = "には何もがなさそうです"
-// this is a little difficult due to japanese word order, just going to have to be nondescript a little
-"backup_err_5" = "コントロールがなさそうです"
-// also difficult, just saying 'this control(s)'
-"backup_err_6" = "このコントロール"
-"backup_err_7" = "あら。。debが作れなかったの！？不思議なのよね。。"
+"Failed to generate controls for installed packages!" = "インストールしたパッケージのコントロールを作られませんでした！";
+"Failed to generate list of packages!" = "パッケージリストを作られませんでした！";
+"%@ is blank?!" = "%@ はブランクです?!";
+"%@ has no contents!" = "%@ には何もがなさそうです!";
+"There appear to be no controls for %@?!" = "コントロールがなさそうです %@?!";
+"The control for" = "このコントロール";
+"Failed to build debs! Not sure how we got here honestly." = "あら。。debが作れなかったの！？不思議なのよね。。";
 
 // GenManager
-"error" = "Error"
-"gen_err_1" = "あなたのデバイスはインタネットに接続時代なさそうです"
-"gen_err_2" = "戻す時に、ネットワークの接続は必要です。(パッケージをダウンロードすることがいるなら)。"
-// more word order issues
-"gen_err_3" = "作られませんでした"
-// more
-"gen_err_4" = "内容を取れませんでした"
-// more, i just said 'in this file'
-"gen_err_5" = "このファイルには何も書けませんでした"
-"gen_err_6" = "このディレクトリのownerはrootじゃなくてmobileことをチェックしてください"
-"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"IAmLazy Error:" = "IAmLazy Error:";
+"Your device does not appear to be connected to the internet" = "あなたのデバイスはインタネットに接続時代なさそうです";
+"A network connection is required for restores so packages can be downloaded if need be" = "戻す時に、ネットワークの接続は必要です。(パッケージをダウンロードすることがいるなら)。";
+"Failed to create %@!" = "作られませんでした %@!";
+"Failed to get contents of %@!" = "内容を取れませんでした %@!";
+"%@ is not writeable." = "%@ このファイルには何も書けませんでした.";
+"Please ensure that the directory's owner is mobile and not root." = "このディレクトリのownerはrootじゃなくてmobileことをチェックしてください.";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
-"restore_err_1" = "バクアップのディレクトリがないです！"
-"restore_err_2" = "バクアップが見つかれませんでした！"
-"restore_err_3" = "目標のバクアップ"
-"restore_err_4" = "が見つけませんでした"
-// i had to say 'the backup you're restoring from was made for a different bootstrap' because of word order issues
-"restore_err_5" = "今の戻してみているバクアップは別のブートストラップのためのバクアップです。"
-"bootstrap" = "ブートストラップ"
-// assuming it's about a specific bootstrap so i added it in
-"restore_err_6" = "今のジェイルブレイクのブートストラップは"
-"restore_err_7" = "はエンプティーです"
-"restore_err_8" = "にはdebsがないです"
+"The backup dir does not exist!" = "バクアップのディレクトリがないです！";
+"No backups were found!" = "バクアップが見つかれませんでした！";
+"The target backup -- %@ -- could not be found!" = "目標のバクアップ -- %@ -- が見つけませんでした";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "今の戻してみているバクアップは別のブートストラップのためのバクアップです。 %@ ブートストラップ.";
+"Your current jailbreak is using %@!" = "今のジェイルブレイクのブートストラップは %@!";
+"%@ is empty?!" = "%@ はエンプティーです?!";
+"%@ has no debs!" = "%@ にはdebsがないです!";

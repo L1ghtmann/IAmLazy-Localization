@@ -3,88 +3,84 @@
 //
 
 // RootVC
-"backup" = "Backup";
-"restore" = "Restore";
-"created_by" = "Created by Lightmann";
-"credits" = "Credits";
-"backups" = "Backups";
-"go" = "Go";
+"Backup" = "Backup";
+"Restore" = "Restore";
+"Created by Lightmann" = "Created by Lightmann";
+"Credits" = "Credits";
+"Backups" = "Backups";
+"Go" = "Go";
 
-"standard" = "Standard";
-"developer" = "Developer";
-"latest" = "Latest";
-"specific" = "Specific";
+"Standard" = "Standard";
+"Developer" = "Developer";
+"Latest" = "Latest";
+"Specific" = "Specific";
 
-"storage_msg" = "Please confirm that you have adequate free storage before proceeding:";
-"selection_msg" = "Choose the backup you'd like to restore from:";
-"restore_confirmation" = "Are you sure that you want to restore from";
-"yes" = "Yes";
-"no" = "No";
-"note" = "Please note:";
-"bootstrap_warning" = "You have chosen to restore from a developer backup. This backup includes bootstrap packages.";
-"bootstrap_confirmation" = "Please confirm that you understand this and still wish to proceed with the restore";
+"Please confirm that you have adequate free storage before proceeding:" = "Please confirm that you have adequate free storage before proceeding:";
+"Choose the backup you'd like to restore from:" = "Choose the backup you'd like to restore from:";
+"Are you sure that you want to restore from %@?" = "Are you sure that you want to restore from %@?";
+"Yes" = "Yes";
+"No" = "No";
+"Please note:" = "Please note:";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "You have chosen to restore from a developer backup. This backup includes bootstrap packages.";
+"Please confirm that you understand this and still wish to proceed with the restore" = "Please confirm that you understand this and still wish to proceed with the restore";
 
-"confirm" = "Confirm";
-"cancel" = "Cancel";
+"Confirm" = "Confirm";
+"Cancel" = "Cancel";
 
-"success" = "Tweak backup completed successfully in";
-"seconds" = "seconds";
-"backup_loc" = "Your backup can be found in";
-"post_restore" = "Choose a post-restore command:";
-"none" = "None";
-"export" = "Export";
-"ok" = "Okay";
+"Tweak backup completed successfully in %@ seconds!" = "Tweak backup completed successfully in %@ seconds!";
+"Your backup can be found in\n%@" = "Your backup can be found in\n%@";
+"Choose a post-restore command:" = "Choose a post-restore command:";
+"None" = "None";
+"Export" = "Export";
+"Okay" = "Okay";
 
 // ProgressVC
-"progress" = "Progress";
-"waiting" = "Waiting";
-"completed" = "Completed";
-"in-progress" = "In-progress";
+"Progress" = "Progress";
+"Waiting" = "Waiting";
+"Completed" = "Completed";
+"In-progress" = "In-progress";
 
-"backup_s1_f" = "Determining user packages";
-"backup_s1" = "Determining installed packages";
-"backup_s2" = "Gathering files for packages";
-"backup_s3" = "Building debs from files";
-"backup_s4" = "Creating backup from debs";
+"Determining user packages" = "Determining user packages";
+"Determining installed packages" = "Determining installed packages";
+"Gathering files for packages" = "Gathering files for packages";
+"Building debs from files" = "Building debs from files";
+"Creating backup from debs" = "Creating backup from debs";
 
-"restore_s1" = "Completing pre-restore checks";
-"restore_s2" = "Unpacking backup";
-"restore_s3" = "Refreshing APT sources";
-"restore_s4" = "Installing debs";
+"Completing pre-restore checks" = "Completing pre-restore checks";
+"Unpacking backup" = "Unpacking backup";
+"Refreshing APT sources" = "Refreshing APT sources";
+"Installing debs" = "Installing debs";
 
 // BackupsVC
-"del_err_1" = "An error occured and";
-"del_err_2" = "was not deleted";
-"info" = "Info";
-"rm_err_1" = "cannot be deleted";
-"import_err_1" = "could not be imported";
+"An error occured and %@ was not deleted!" = "An error occured and %@ was not deleted!";
+"Info: %@" = "Info: %@";
+"%@ cannot be deleted?!" = "%@ cannot be deleted?!";
+"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
 
 // BackupManager
-"backup_err_1" = "Failed to generate controls for installed packages!";
-"backup_err_2" = "Failed to generate list of packages!";
-"backup_err_3" = "is blank";
-"backup_err_4" = "has no contents";
-"backup_err_5" = "There appear to be no controls for";
-"backup_err_6" = "The control for";
-"backup_err_7" = "Failed to build debs! Not sure how we got here honestly.";
+"Failed to generate controls for installed packages!" = "Failed to generate controls for installed packages!";
+"Failed to generate list of packages!" = "Failed to generate list of packages!";
+"%@ is blank?!" = "%@ is blank?!";
+"%@ has no contents!" = "%@ has no contents!";
+"There appear to be no controls for %@?!" = "There appear to be no controls for %@?!";
+"The control for" = "The control for";
+"Failed to build debs! Not sure how we got here honestly." = "Failed to build debs! Not sure how we got here honestly.";
 
 // GenManager
-"error" = "Error";
-"gen_err_1" = "Your device does not appear to be connected to the internet";
-"gen_err_2" = "A network connection is required for restores so packages can be downloaded if need be";
-"gen_err_3" = "Failed to create";
-"gen_err_4" = "Failed to get contents of";
-"gen_err_5" = "is not writeable";
-"gen_err_6" = "Please ensure that the directory's owner is mobile and not root";
-"gen_err_7" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"IAmLazy Error:" = "IAmLazy Error:";
+"Your device does not appear to be connected to the internet" = "Your device does not appear to be connected to the internet";
+"A network connection is required for restores so packages can be downloaded if need be" = "A network connection is required for restores so packages can be downloaded if need be";
+"Failed to create %@!" = "Failed to create %@!";
+"Failed to get contents of %@!" = "Failed to get contents of %@!";
+"%@ is not writeable." = "%@ is not writeable.";
+"Please ensure that the directory's owner is mobile and not root." = "Please ensure that the directory's owner is mobile and not root.";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
 
 // RestoreManager
-"restore_err_1" = "The backup dir does not exist!";
-"restore_err_2" = "No backups were found!";
-"restore_err_3" = "The target backup";
-"restore_err_4" = "could not be found";
-"restore_err_5" = "The backup you're trying to restore from was made for jailbreaks using the";
-"bootstrap" = "bootstrap";
-"restore_err_6" = "Your current jailbreak is using";
-"restore_err_7" = "is empty";
-"restore_err_8" = "has no debs";
+"The backup dir does not exist!" = "The backup dir does not exist!";
+"No backups were found!" = "No backups were found!";
+"The target backup -- %@ -- could not be found!" = "The target backup -- %@ -- could not be found!";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap.";
+"Your current jailbreak is using %@!" = "Your current jailbreak is using %@!";
+"%@ is empty?!" = "%@ is empty?!";
+"%@ has no debs!" = "%@ has no debs!";
