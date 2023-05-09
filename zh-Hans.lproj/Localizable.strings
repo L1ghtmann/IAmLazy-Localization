@@ -65,6 +65,8 @@
 "There appear to be no controls for %@?!" = "似乎没有 %@?!";
 "The control for" = "的控制文件";
 "Failed to build debs! Not sure how we got here honestly." = "无法构建Deb文件！实在不知道出了什么问题。";
+"Failed to get attributes for %@!" = "Failed to get attributes for %@!";
+"Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy 错误:";

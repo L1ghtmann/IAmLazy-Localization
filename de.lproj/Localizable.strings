@@ -65,6 +65,8 @@
 "There appear to be no controls for %@?!" = "Es scheint keine Kotrolldatei zu geben für %@?!";
 "The control for" = "Die Kontrolldatei für";
 "Failed to build debs! Not sure how we got here honestly." = "Fehler beim bauen der Pakete! Keiner weiß wie das passieren konnte.";
+"Failed to get attributes for %@!" = "Failed to get attributes for %@!";
+"Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy Fehler:";

@@ -65,6 +65,8 @@
 "There appear to be no controls for %@?!" = "コントロールがなさそうです %@?!";
 "The control for" = "このコントロール";
 "Failed to build debs! Not sure how we got here honestly." = "あら。。debが作れなかったの！？不思議なのよね。。";
+"Failed to get attributes for %@!" = "Failed to get attributes for %@!";
+"Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy Error:";
