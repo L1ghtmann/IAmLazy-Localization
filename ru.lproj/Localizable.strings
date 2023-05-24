@@ -67,6 +67,9 @@
 "Failed to build debs! Not sure how we got here honestly." = "Не удалось собрать .debs! Честно говоря, не знаю, как мы сюда попали.";
 "Failed to get attributes for %@!" = "Failed to get attributes for %@!";
 "Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
+"Failed to copy generic files!" = "Failed to copy generic files!";
+"Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
+"Failed to build deb for %@!" = "Failed to build deb for %@!";
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy Ошибка:";
@@ -77,6 +80,9 @@
 "%@ is not writeable." = "%@ не записываемый.";
 "Please ensure that the directory's owner is mobile and not root." = "Убедитесь, что владельцем каталога является мобильный телефон, а не пользователь root.";
 "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"Failed to free dpkg lock!" = "Failed to free dpkg lock!";
+"Failed to cleanup %@!" = "Failed to cleanup %@!";
+"Failed to update APT sources!" = "Failed to update APT sources!";
 
 // RestoreManager
 "The backup dir does not exist!" = "Резервный каталог не существует!";
@@ -86,3 +92,4 @@
 "Your current jailbreak is using %@!" = "Ваш текущий джейлбрейк использует %@!";
 "%@ is empty?!" = "%@ пусто?!";
 "%@ has no debs!" = "%@ не имеет .debs!";
+"Failed to install %@!" = "Failed to install %@!";

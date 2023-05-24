@@ -67,6 +67,9 @@
 "Failed to build debs! Not sure how we got here honestly." = "Fehler beim bauen der Pakete! Keiner weiß wie das passieren konnte.";
 "Failed to get attributes for %@!" = "Failed to get attributes for %@!";
 "Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
+"Failed to copy generic files!" = "Failed to copy generic files!";
+"Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
+"Failed to build deb for %@!" = "Failed to build deb for %@!";
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy Fehler:";
@@ -77,6 +80,9 @@
 "%@ is not writeable." = "%@ ist nicht beschreibbar.";
 "Please ensure that the directory's owner is mobile and not root." = "Bitte stelle sicher, dass der Besitzer des Ordners mobile ist.";
 "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"Failed to free dpkg lock!" = "Failed to free dpkg lock!";
+"Failed to cleanup %@!" = "Failed to cleanup %@!";
+"Failed to update APT sources!" = "Failed to update APT sources!";
 
 // RestoreManager
 "The backup dir does not exist!" = "Das Backupverzeichnis existiert nicht!";
@@ -86,3 +92,4 @@
 "Your current jailbreak is using %@!" = "Dein aktueller Jailbreak nutzt %@!";
 "%@ is empty?!" = "%@ ist leer?!";
 "%@ has no debs!" = "%@ enthält keine Pakete!";
+"Failed to install %@!" = "Failed to install %@!";

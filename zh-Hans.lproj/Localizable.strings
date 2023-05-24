@@ -67,6 +67,9 @@
 "Failed to build debs! Not sure how we got here honestly." = "无法构建Deb文件！实在不知道出了什么问题。";
 "Failed to get attributes for %@!" = "Failed to get attributes for %@!";
 "Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
+"Failed to copy generic files!" = "Failed to copy generic files!";
+"Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
+"Failed to build deb for %@!" = "Failed to build deb for %@!";
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy 错误:";
@@ -77,6 +80,9 @@
 "%@ is not writeable." = "%@ 无法写入.";
 "Please ensure that the directory's owner is mobile and not root." = "请确保目录所有者为mobile而非root.";
 "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"Failed to free dpkg lock!" = "Failed to free dpkg lock!";
+"Failed to cleanup %@!" = "Failed to cleanup %@!";
+"Failed to update APT sources!" = "Failed to update APT sources!";
 
 // RestoreManager
 "The backup dir does not exist!" = "备份文件夹不存在！";
@@ -86,3 +92,4 @@
 "Your current jailbreak is using %@!" = "您当前的越狱环境使用的是 %@!";
 "%@ is empty?!" = "%@ 为空?!";
 "%@ has no debs!" = "%@ 无Deb文件!";
+"Failed to install %@!" = "Failed to install %@!";
