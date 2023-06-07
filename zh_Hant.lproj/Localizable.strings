@@ -52,44 +52,44 @@
 "Installing debs" = "正在下載 .deb 檔案";
 
 // BackupsVC
-"An error occured and %@ was not deleted!" = "An error occured and %@ was not deleted!";
-"Info: %@" = "Info: %@";
-"%@ cannot be deleted?!" = "%@ cannot be deleted?!";
-"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
+"An error occured and %@ was not deleted!" = "錯誤：%@ 未被刪除！";
+"Info: %@" = "更多：%@";
+"%@ cannot be deleted?!" = "%@ 無法被刪除？！";
+"An error occured and %@ could not be imported!" = "錯誤：無法導入 %@";
 
 // BackupManager
-"Failed to generate controls for installed packages!" = "Failed to generate controls for installed packages!";
-"Failed to generate list of packages!" = "Failed to generate list of packages!";
-"%@ is blank?!" = "%@ is blank?!";
-"%@ has no contents!" = "%@ has no contents!";
-"There appear to be no controls for %@?!" = "There appear to be no controls for %@?!";
-"The control for" = "The control for";
-"Failed to build debs! Not sure how we got here honestly." = "Failed to build debs! Not sure how we got here honestly.";
-"Failed to get attributes for %@!" = "Failed to get attributes for %@!";
-"Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
-"Failed to copy generic files!" = "Failed to copy generic files!";
-"Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
-"Failed to build deb for %@!" = "Failed to build deb for %@!";
+"Failed to generate controls for installed packages!" = "建立控制失敗！";
+"Failed to generate list of packages!" = "建立套件清單失敗！";
+"%@ is blank?!" = "%@ 是空白的？！";
+"%@ has no contents!" = "%@ 沒有東西！";
+"There appear to be no controls for %@?!" = "沒有對 %@ 的控制？！";
+"The control for" = "控制對象";
+"Failed to build debs! Not sure how we got here honestly." = "無法編譯 .deb 檔。不確定你是怎麼看到此訊息的。";
+"Failed to get attributes for %@!" = "取得屬性失敗 %@!";
+"Failed to write generic files to %@ for %@!" = "寫入通用檔案到 %@ 給 %@ 失敗！";
+"Failed to copy generic files!" = "複製通用檔案時失敗！";
+"Failed to copy DEBIAN files!" = "複製 DEBIAN 檔案時失敗！";
+"Failed to build deb for %@!" = "編譯 %@ 的 .deb. 檔案時失敗!";
 
 // GenManager
-"IAmLazy Error:" = "IAmLazy Error:";
-"Your device does not appear to be connected to the internet" = "Your device does not appear to be connected to the internet";
-"A network connection is required for restores so packages can be downloaded if need be" = "A network connection is required for restores so packages can be downloaded if need be";
-"Failed to create %@!" = "Failed to create %@!";
-"Failed to get contents of %@!" = "Failed to get contents of %@!";
-"%@ is not writeable." = "%@ is not writeable.";
-"Please ensure that the directory's owner is mobile and not root." = "Please ensure that the directory's owner is mobile and not root.";
-"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
-"Failed to free dpkg lock!" = "Failed to free dpkg lock!";
-"Failed to cleanup %@!" = "Failed to cleanup %@!";
-"Failed to update APT sources!" = "Failed to update APT sources!";
+"IAmLazy Error:" = "IAmLazy 錯誤：";
+"Your device does not appear to be connected to the internet" = "您的裝置沒有網路";
+"A network connection is required for restores so packages can be downloaded if need be" = "回復備份因為可能需要下載套件，所以網路是必須的。";
+"Failed to create %@!" = "建立 %@ 失敗！";
+"Failed to get contents of %@!" = "取得 %@ 的內容失敗！";
+"%@ is not writeable." = "沒有權限寫入 %@ ！";
+"Please ensure that the directory's owner is mobile and not root." = "請確認 mobile 而不是 root 擁有此資料夾的權限";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "因為需要檢查套件是否為付費套件，所以網路是必須的";
+"Failed to free dpkg lock!" = "無法刪除 dpkg 的 lock 檔案！（可能有其他程序正在使用 dpkg）";
+"Failed to cleanup %@!" = "%@ 的清理失敗！";
+"Failed to update APT sources!" = "重新整理軟體源失敗！";
 
 // RestoreManager
-"The backup dir does not exist!" = "The backup dir does not exist!";
-"No backups were found!" = "No backups were found!";
-"The target backup -- %@ -- could not be found!" = "The target backup -- %@ -- could not be found!";
-"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap.";
-"Your current jailbreak is using %@!" = "Your current jailbreak is using %@!";
-"%@ is empty?!" = "%@ is empty?!";
-"%@ has no debs!" = "%@ has no debs!";
-"Failed to install %@!" = "Failed to install %@!";
+"The backup dir does not exist!" = "此資料夾不存在";
+"No backups were found!" = "沒也任何備份檔案！";
+"The target backup -- %@ -- could not be found!" = "無法找到 %@";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "此備份是使用 %@ bootstrap。";
+"Your current jailbreak is using %@!" = "您正在使用的越獄是 %@！";
+"%@ is empty?!" = "%@ 是空的？！";
+"%@ has no debs!" = "%@ 沒有 .deb 檔案！";
+"Failed to install %@!" = "安裝 %@ 失敗！";
