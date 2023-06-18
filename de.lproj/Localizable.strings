@@ -70,6 +70,8 @@
 "Failed to copy generic files!" = "Failed to copy generic files!";
 "Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
 "Failed to build deb for %@!" = "Failed to build deb for %@!";
+"%@ is not fully installed?!" = "%@ is not fully installed?!";
+"Regex error: %@" = "Regex error: %@";
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy Fehler:";
@@ -93,3 +95,5 @@
 "%@ is empty?!" = "%@ ist leer?!";
 "%@ has no debs!" = "%@ enthält keine Pakete!";
 "Failed to install %@!" = "Failed to install %@!";
+"The backup you're trying to restore from was made for %@ jailbreaks." = "The backup you're trying to restore from was made for %@ jailbreaks.";
+"Your current jailbreak is %@!" = "Your current jailbreak is %@!";
