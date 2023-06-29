@@ -34,6 +34,8 @@
 "Export" = "Экспорт";
 "Okay" = "Хорошо";
 
+"The following packages are not properly installed/configured and were skipped:\n%@" = "The following packages are not properly installed/configured and were skipped:\n%@";
+
 // ProgressVC
 "Progress" = "Прогресс";
 "Waiting" = "Ожидающий";
