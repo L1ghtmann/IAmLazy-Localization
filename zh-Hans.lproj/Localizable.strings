@@ -15,21 +15,21 @@
 "Latest" = "最新版";
 "Specific" = "特定版本";
 
-"Please confirm that you have adequate free storage before proceeding:" = "请确认您有足够的存储空间再进行操作:";
-"Choose the backup you'd like to restore from:" = "请选择您要恢复的备份:";
-"Are you sure that you want to restore from %@?" = "您确定要从以下备份进行恢复吗 %@?";
+"Please confirm that you have adequate free storage before proceeding:" = "请确认您有足够的存储空间再进行操作：";
+"Choose the backup you'd like to restore from:" = "请选择您要恢复的备份：";
+"Are you sure that you want to restore from %@?" = "您确定要从以下备份进行恢复吗 %@？";
 "Yes" = "是";
 "No" = "否";
-"Please note:" = "请注意:";
+"Please note:" = "请注意：";
 "You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "您选择了从开发者备份进行恢复。该备份包括引导包。";
 "Please confirm that you understand this and still wish to proceed with the restore" = "请确认您已理解并仍然希望继续恢复";
 
 "Confirm" = "确认";
 "Cancel" = "取消";
 
-"Tweak backup completed successfully in %@ seconds!" = "插件备份已完成，用时 %@ 秒!";
+"Tweak backup completed successfully in %@ seconds!" = "插件备份已完成，用时%@秒!";
 "Your backup can be found in\n%@" = "您的备份文件位于\n%@";
-"Choose a post-restore command:" = "选择恢复后的操作:";
+"Choose a post-restore command:" = "选择恢复后的操作：";
 "None" = "无";
 "Export" = "导出";
 "Okay" = "好的";
@@ -50,52 +50,52 @@
 
 "Completing pre-restore checks" = "完成恢复前检查";
 "Unpacking backup" = "解压备份文件";
-"Refreshing APT sources" = "刷新越狱源源";
+"Refreshing APT sources" = "刷新越狱源";
 "Installing debs" = "安装Deb文件";
 
 // BackupsVC
-"An error occured and %@ was not deleted!" = "出现错误，无法删除 %@!";
-"Info: %@" = "信息: %@";
-"%@ cannot be deleted?!" = "%@ 无法删除?!";
-"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
+"An error occured and %@ was not deleted!" = "出现错误，无法删除%@!";
+"Info: %@" = "信息:%@";
+"%@ cannot be deleted?!" = "%@无法删除?!";
+"An error occured and %@ could not be imported!" = "发生了一个错误，%@无法导入";
 
 // BackupManager
 "Failed to generate controls for installed packages!" = "未能生成已安装插件的控制文件！";
 "Failed to generate list of packages!" = "未能生成插件列表！";
-"%@ is blank?!" = "%@ 为空?!";
-"%@ has no contents!" = "%@ 无内容!";
-"There appear to be no controls for %@?!" = "似乎没有 %@?!";
+"%@ is blank?!" = "%@为空?!";
+"%@ has no contents!" = "%@无内容!";
+"There appear to be no controls for %@?!" = "似乎没有%@?!";
 "The control for" = "的控制文件";
 "Failed to build debs! Not sure how we got here honestly." = "无法构建Deb文件！实在不知道出了什么问题。";
-"Failed to get attributes for %@!" = "Failed to get attributes for %@!";
-"Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
-"Failed to copy generic files!" = "Failed to copy generic files!";
-"Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
-"Failed to build deb for %@!" = "Failed to build deb for %@!";
-"%@ is not fully installed?!" = "%@ is not fully installed?!";
-"Regex error: %@" = "Regex error: %@";
+"Failed to get attributes for %@!" = "无法获得%@属性的信息！";
+"Failed to write generic files to %@ for %@!" = "未能为%@将通用文件写入%@！";
+"Failed to copy generic files!" = "复制通用文件失败！";
+"Failed to copy DEBIAN files!" = "复制DEBIAN文件失败！";
+"Failed to build deb for %@!" = "未能为%@构建deb！";
+"%@ is not fully installed?!" = "%@没有完全安装？！";
+"Regex error: %@" = "Regex错误：%@";
 
 // GenManager
-"IAmLazy Error:" = "IAmLazy 错误:";
+"IAmLazy Error:" = "IAmLazy错误：";
 "Your device does not appear to be connected to the internet" = "您的设备似乎未连接到互联网";
 "A network connection is required for restores so packages can be downloaded if need be" = "恢复需要网络连接以便在需要时下载插件";
-"Failed to create %@!" = "无法创建 %@!";
+"Failed to create %@!" = "无法创建%@!";
 "Failed to get contents of %@!" = "无法获取 %@!";
-"%@ is not writeable." = "%@ 无法写入.";
-"Please ensure that the directory's owner is mobile and not root." = "请确保目录所有者为mobile而非root.";
-"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
-"Failed to free dpkg lock!" = "Failed to free dpkg lock!";
-"Failed to cleanup %@!" = "Failed to cleanup %@!";
-"Failed to update APT sources!" = "Failed to update APT sources!";
+"%@ is not writeable." = "%@无法写入。";
+"Please ensure that the directory's owner is mobile and not root." = "请确保目录所有者为mobile而非root。";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "标准备份需要网络连接来确定给定的包是否为引导程序提供的";
+"Failed to free dpkg lock!" = "未能释放dpkg锁！";
+"Failed to cleanup %@!" = "清理%@失败！";
+"Failed to update APT sources!" = "未能更新APT源！";
 
 // RestoreManager
 "The backup dir does not exist!" = "备份文件夹不存在！";
 "No backups were found!" = "未找到备份文件！";
-"The target backup -- %@ -- could not be found!" = "目标备份文件 -- %@ -- 未找到!";
-"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "您正在尝试恢复的备份文件是针对使用 %@ 引导包.";
-"Your current jailbreak is using %@!" = "您当前的越狱环境使用的是 %@!";
-"%@ is empty?!" = "%@ 为空?!";
-"%@ has no debs!" = "%@ 无Deb文件!";
-"Failed to install %@!" = "Failed to install %@!";
-"The backup you're trying to restore from was made for %@ jailbreaks." = "The backup you're trying to restore from was made for %@ jailbreaks.";
-"Your current jailbreak is %@!" = "Your current jailbreak is %@!";
+"The target backup -- %@ -- could not be found!" = "目标备份文件 -- %@ -- 未找到！";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "您正在尝试恢复的备份文件是针对使用%@的引导包。";
+"Your current jailbreak is using %@!" = "您当前的越狱环境使用的是%@!";
+"%@ is empty?!" = "%@为空？！";
+"%@ has no debs!" = "%@没有Deb文件!";
+"Failed to install %@!" = "安装%@失败！";
+"The backup you're trying to restore from was made for %@ jailbreaks." = "你正在尝试恢复的备份是由%@越狱版本制作的。";
+"Your current jailbreak is %@!" = "你现在的越狱是%@!";
