@@ -29,7 +29,7 @@
 
 "Tweak backup completed successfully in %@ seconds!" = "花了%@秒完成備份！";
 "Your backup can be found in\n%@" = "您的備份在這：\n%@";
-"Choose a post-restore command:" = "請選擇一個回復偏好設定的指令";
+"Choose a post-restore command:" = "已完成!請選擇以下動作。";
 "None" = "無";
 "Export" = "導出";
 "Okay" = "完成";
