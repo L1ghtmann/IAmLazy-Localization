@@ -74,6 +74,7 @@
 "Failed to build deb for %@!" = "未能为%@构建deb！";
 "%@ is not fully installed?!" = "%@没有完全安装？！";
 "Regex error: %@" = "Regex错误：%@";
+"Failed to build final archive!" = "Failed to build final archive!";
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy错误：";
@@ -99,3 +100,4 @@
 "Failed to install %@!" = "安装%@失败！";
 "The backup you're trying to restore from was made for %@ jailbreaks." = "你正在尝试恢复的备份是由%@越狱版本制作的。";
 "Your current jailbreak is %@!" = "你现在的越狱是%@!";
+"The backup you're trying to restore from was made for XinaA15." = "The backup you're trying to restore from was made for XinaA15.";
