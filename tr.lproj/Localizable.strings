@@ -64,16 +64,12 @@
 "Failed to generate list of packages!" = "Paket listesi oluturulamad!";
 "%@ is blank?!" = "%@ bo?!";
 "%@ has no contents!" = "%@ iri sahip del!";
-"There appear to be no controls for %@?!" = "Bu  in kontrol bulunmuyor %@?!";
-"The control for" = "Bu nin kontrol";
 "Failed to build debs! Not sure how we got here honestly." = "deb paketi oluturulamad! Nedeni tespit edilemedi.";
 "Failed to get attributes for %@!" = "Failed to get attributes for %@!";
 "Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
 "Failed to copy generic files!" = "Failed to copy generic files!";
 "Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
 "Failed to build deb for %@!" = "Failed to build deb for %@!";
-"%@ is not fully installed?!" = "%@ is not fully installed?!";
-"Regex error: %@" = "Regex error: %@";
 "Failed to build final archive!" = "Failed to build final archive!";
 
 // GenManager

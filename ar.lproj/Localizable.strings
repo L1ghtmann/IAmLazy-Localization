@@ -64,16 +64,12 @@
 "Failed to generate list of packages!" = "فشل إنشاء قائمة الحزم!";
 "%@ is blank?!" = "%@ فارغ?!";
 "%@ has no contents!" = "%@ لا يوجد محتويات!";
-"There appear to be no controls for %@?!" = "يبدو إنه لا يوجد ملف التحكم %@?!";
-"The control for" = "ملف التحكم";
 "Failed to build debs! Not sure how we got here honestly." = "فشل إنشاء ملفات debs! لست متأكد كيف وصلنا الى هنا.";
 "Failed to get attributes for %@!" = "Failed to get attributes for %@!";
 "Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
 "Failed to copy generic files!" = "Failed to copy generic files!";
 "Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
 "Failed to build deb for %@!" = "Failed to build deb for %@!";
-"%@ is not fully installed?!" = "%@ is not fully installed?!";
-"Regex error: %@" = "Regex error: %@";
 "Failed to build final archive!" = "Failed to build final archive!";
 
 // GenManager

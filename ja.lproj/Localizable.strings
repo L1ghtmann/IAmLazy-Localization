@@ -64,16 +64,12 @@
 "Failed to generate list of packages!" = "パッケージリストを作られませんでした！";
 "%@ is blank?!" = "%@ はブランクです?!";
 "%@ has no contents!" = "%@ には何もがなさそうです!";
-"There appear to be no controls for %@?!" = "コントロールがなさそうです %@?!";
-"The control for" = "このコントロール";
 "Failed to build debs! Not sure how we got here honestly." = "あら。。debが作れなかったの！？不思議なのよね。。";
 "Failed to get attributes for %@!" = "Failed to get attributes for %@!";
 "Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
 "Failed to copy generic files!" = "Failed to copy generic files!";
 "Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
 "Failed to build deb for %@!" = "Failed to build deb for %@!";
-"%@ is not fully installed?!" = "%@ is not fully installed?!";
-"Regex error: %@" = "Regex error: %@";
 "Failed to build final archive!" = "Failed to build final archive!";
 
 // GenManager

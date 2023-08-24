@@ -64,16 +64,12 @@
 "Failed to generate list of packages!" = "未能生成插件列表！";
 "%@ is blank?!" = "%@为空?!";
 "%@ has no contents!" = "%@无内容!";
-"There appear to be no controls for %@?!" = "似乎没有%@?!";
-"The control for" = "的控制文件";
 "Failed to build debs! Not sure how we got here honestly." = "无法构建Deb文件！实在不知道出了什么问题。";
 "Failed to get attributes for %@!" = "无法获得%@属性的信息！";
 "Failed to write generic files to %@ for %@!" = "未能为%@将通用文件写入%@！";
 "Failed to copy generic files!" = "复制通用文件失败！";
 "Failed to copy DEBIAN files!" = "复制DEBIAN文件失败！";
 "Failed to build deb for %@!" = "未能为%@构建deb！";
-"%@ is not fully installed?!" = "%@没有完全安装？！";
-"Regex error: %@" = "Regex错误：%@";
 "Failed to build final archive!" = "Failed to build final archive!";
 
 // GenManager
