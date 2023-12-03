@@ -74,7 +74,7 @@
 
 // GenManager
 "IAmLazy Error:" = "IAmLazy 錯誤：";
-"Your device does not appear to be connected to the internet" = "您的設備似乎未連線到網路";
+"Your device does not appear to be connected to the internet" = "您的裝置似乎未連線到網路";
 "A network connection is required for restores so packages can be downloaded if need be" = "還原需要網路連線，以便在需要時可以下載套件";
 "Failed to create %@!" = "構建 %@ 失敗！";
 "Failed to get contents of %@!" = "取得 %@ 的內容失敗！";
