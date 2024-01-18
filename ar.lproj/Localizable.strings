@@ -9,6 +9,7 @@
 "Credits" = "شكر خاص الى";
 "Backups" = "النسخ الإحتياطية";
 "Go" = "إذهب";
+"Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "قياسي";
 "Developer" = "المطور";
@@ -58,6 +59,24 @@
 "Info: %@" = "معلومات: %@";
 "%@ cannot be deleted?!" = "%@ لا يمكن حذفها?!";
 "An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
+"Swipe or tap desired backup" = "Swipe or tap desired backup";
+"Delete" = "Delete";
+
+// CreditsVC
+"Thank you to all who have helped!" = "Thank you to all who have helped!";
+"Reachability project" = "Reachability project";
+"Design inspiration (re: Electra)" = "Design inspiration (re: Electra)";
+"Bootstrap package identification" = "Bootstrap package identification";
+"Archival functions" = "Archival functions";
+"Icon artwork" = "Icon artwork";
+"German translation" = "German translation";
+"Turkish translation" = "Turkish translation";
+"Japanese translation" = "Japanese translation";
+"Russian translation" = "Russian translation";
+"Arabic translation" = "Arabic translation";
+"Spanish translation" = "Spanish translation";
+"Simplified Chinese translation" = "Simplified Chinese translation";
+"Taiwanese Mandarin translation" = "Taiwanese Mandarin translation";
 
 // BackupManager
 "Failed to generate controls for installed packages!" = "فشل إنشاء عناصر التحكم للحزم المثبتة!";

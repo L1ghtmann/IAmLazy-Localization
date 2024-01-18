@@ -9,6 +9,7 @@
 "Credits" = "銘謝";
 "Backups" = "備份檔案";
 "Go" = "開始";
+"Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "標準";
 "Developer" = "開發者";
@@ -58,6 +59,24 @@
 "Info: %@" = "詳細資訊：%@";
 "%@ cannot be deleted?!" = "%@ 無法刪除？！";
 "An error occured and %@ could not be imported!" = "發生錯誤，無法導入 %@！";
+"Swipe or tap desired backup" = "Swipe or tap desired backup";
+"Delete" = "Delete";
+
+// CreditsVC
+"Thank you to all who have helped!" = "Thank you to all who have helped!";
+"Reachability project" = "Reachability project";
+"Design inspiration (re: Electra)" = "Design inspiration (re: Electra)";
+"Bootstrap package identification" = "Bootstrap package identification";
+"Archival functions" = "Archival functions";
+"Icon artwork" = "Icon artwork";
+"German translation" = "German translation";
+"Turkish translation" = "Turkish translation";
+"Japanese translation" = "Japanese translation";
+"Russian translation" = "Russian translation";
+"Arabic translation" = "Arabic translation";
+"Spanish translation" = "Spanish translation";
+"Simplified Chinese translation" = "Simplified Chinese translation";
+"Taiwanese Mandarin translation" = "Taiwanese Mandarin translation";
 
 // BackupManager
 "Failed to generate controls for installed packages!" = "無法產生已安裝套件的控制！";
