@@ -5,19 +5,14 @@
 // RootVC
 "Backup" = "Yedekle";
 "Restore" = "Ykle";
-"Created by Lightmann" = "Lightmann projesidir";
 "Credits" = "Credits";
 "Backups" = "Yedekler";
-"Go" = "Devam";
 "Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "Standart";
 "Developer" = "Gelitirici";
-"Latest" = "En son";
-"Specific" = "Belirli";
 
 "Please confirm that you have adequate free storage before proceeding:" = "Devam etmeden nce ltfen yeterli depolama alannz oldunu dan emin olun:";
-"Choose the backup you'd like to restore from:" = "Yklemek istediniz yede sen:";
 "Are you sure that you want to restore from %@?" = "Bu yede yklemek istedinizden emin misiniz %@?";
 "Yes" = "Evet";
 "No" = "Hayr";

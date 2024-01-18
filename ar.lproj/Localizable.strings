@@ -5,19 +5,14 @@
 // RootVC
 "Backup" = "أخِذ نسخة إحتياطية";
 "Restore" = "إستعادة النسخة الإحتياطية";
-"Created by Lightmann" = "تم تطويره من قبل Lightmann";
 "Credits" = "شكر خاص الى";
 "Backups" = "النسخ الإحتياطية";
-"Go" = "إذهب";
 "Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "قياسي";
 "Developer" = "المطور";
-"Latest" = "الأحدث";
-"Specific" = "محدد";
 
 "Please confirm that you have adequate free storage before proceeding:" = "الرجاء التأكد من أن لديك مساحة تخزين كافية قبل المتابعة:";
-"Choose the backup you'd like to restore from:" = "إختر النسخة الإحتياطية التي ترغب بأستعادتها:";
 "Are you sure that you want to restore from %@?" = "هل أنت متأكد من رغبتك في الإستعادة من %@?";
 "Yes" = "نعم";
 "No" = "لا";

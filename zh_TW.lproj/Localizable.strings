@@ -5,19 +5,14 @@
 // RootVC
 "Backup" = "備份";
 "Restore" = "還原";
-"Created by Lightmann" = "由 Lightmann 製作";
 "Credits" = "銘謝";
 "Backups" = "備份檔案";
-"Go" = "開始";
 "Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "標準";
 "Developer" = "開發者";
-"Latest" = "從最新備份";
-"Specific" = "從指定備份";
 
 "Please confirm that you have adequate free storage before proceeding:" = "請檢儲存查空間是否充足";
-"Choose the backup you'd like to restore from:" = "請選擇想回復的備份";
 "Are you sure that you want to restore from %@?" = "從 %@ 回復備份？";
 "Yes" = "確認";
 "No" = "取消";

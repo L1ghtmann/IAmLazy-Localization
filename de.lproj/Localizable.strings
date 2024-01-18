@@ -5,15 +5,12 @@
 // RootVC
 "Backup" = "Backup";
 "Restore" = "Wiederherstellen";
-"Created by Lightmann" = "Von Lightmann";
 "Credits" = "Credits";
 "Backups" = "Backups";
-"Go" = "Los!";
 "Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "Standard";
 "Developer" = "Entwickler";
-"Latest" = "Neuestes";
 "specific" = "Speziell";
 
 "storage_msg" = "Bitte stelle sicher, dass ausreichend freier Speicher verfügbar ist:";

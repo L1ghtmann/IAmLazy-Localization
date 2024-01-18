@@ -5,19 +5,14 @@
 // RootVC
 "Backup" = "Backup";
 "Restore" = "Restore";
-"Created by Lightmann" = "Created by Lightmann";
 "Credits" = "Credits";
 "Backups" = "Backups";
-"Go" = "Go";
 "Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "Standard";
 "Developer" = "Developer";
-"Latest" = "Latest";
-"Specific" = "Specific";
 
 "Please confirm that you have adequate free storage before proceeding:" = "Please confirm that you have adequate free storage before proceeding:";
-"Choose the backup you'd like to restore from:" = "Choose the backup you'd like to restore from:";
 "Are you sure that you want to restore from %@?" = "Are you sure that you want to restore from %@?";
 "Yes" = "Yes";
 "No" = "No";

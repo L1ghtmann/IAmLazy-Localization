@@ -5,19 +5,14 @@
 // RootVC
 "Backup" = "バクアップ";
 "Restore" = "戻す";
-"Created by Lightmann" = "作者: Lightmann";
 "Credits" = "クレジット";
 "Backups" = "バクアップリスト";
-"Go" = "Go";
 "Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "普通版";
 "Developer" = "デベロッパー版";
-"Latest" = "最近版";
-"Specific" = "別の版を選択";
 
 "Please confirm that you have adequate free storage before proceeding:" = "進む前にデータが不足じゃないことを確認してください:";
-"Choose the backup you'd like to restore from:" = "バクアップリストの中から戻したいバクアップを選択してください:";
 "Are you sure that you want to restore from %@?" = "このバクアップから本当に戻したいですか %@?";
 "Yes" = "はい";
 "No" = "いいえ";

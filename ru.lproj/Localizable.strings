@@ -5,19 +5,14 @@
 // RootVC
 "Backup" = "Резервное копирование";
 "Restore" = "восстановить";
-"Created by Lightmann" = "Создано Лайтманном";
 "Credits" = "Кредиты";
 "Backups" = "Резервные копии";
-"Go" = "Go";
 "Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
 
 "Standard" = "стандартный";
 "Developer" = "Разработчик";
-"Latest" = "Последний";
-"Specific" = "Специфический";
 
 "Please confirm that you have adequate free storage before proceeding:" = "Прежде чем продолжить, убедитесь, что у вас достаточно свободного места на диске:";
-"Choose the backup you'd like to restore from:" = "Выберите резервную копию, из которой вы хотите восстановить:";
 "Are you sure that you want to restore from %@?" = "Вы уверены, что хотите восстановить из %@?";
 "Yes" = "да";
 "No" = "нет";
