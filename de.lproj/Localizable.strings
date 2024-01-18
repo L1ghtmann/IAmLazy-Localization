@@ -11,10 +11,8 @@
 
 "Standard" = "Standard";
 "Developer" = "Entwickler";
-"specific" = "Speziell";
 
-"storage_msg" = "Bitte stelle sicher, dass ausreichend freier Speicher verfügbar ist:";
-"selection_msg" = "Wähle das wiederherzustellende Backup:";
+"Please confirm that you have adequate free storage before proceeding:" = "Bitte stelle sicher, dass ausreichend freier Speicher verfügbar ist:";
 "Are you sure that you want to restore from %@?" = "Möchtest du das folgende Backup wirklich wiederherstellen %@?";
 "Yes" = "Ja";
 "No" = "Nein";
@@ -58,6 +56,7 @@
 "An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
 "Swipe or tap desired backup" = "Swipe or tap desired backup";
 "Delete" = "Delete";
+"Type: %@" = "Type: %@";
 
 // CreditsVC
 "Thank you to all who have helped!" = "Thank you to all who have helped!";
