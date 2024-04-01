@@ -1,0 +1,113 @@
+//
+//	Translation by Oliver Tzeng
+//
+
+// RootVC
+"Backup" = "備份";
+"Restore" = "還原";
+"Credits" = "銘謝";
+"Backups" = "備份檔案";
+"Easily backup and restore your tweaks" = "輕鬆備份和恢復您的插體";
+
+"Standard" = "標準";
+"Developer" = "開發者";
+
+"Please confirm that you have adequate free storage before proceeding:" = "請檢儲存查空間是否充足";
+"Are you sure that you want to restore from %@?" = "從 %@ 回復備份？";
+"Yes" = "確認";
+"No" = "取消";
+"Please note:" = "請注意：";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "您已選擇從開發者備份還原。此備份包括引導套件。";
+"Please confirm that you understand this and still wish to proceed with the restore" = "請確保您了解這點並仍希望繼續還原";
+
+"Confirm" = "確認";
+"Cancel" = "取消";
+
+"Tweak backup completed successfully in %@ seconds!" = "插體備份在 %@ 秒內成功完成！";
+"Your backup can be found in\n%@" = "在此可找到您的備份：\n%@";
+"Choose a post-restore command:" = "已完成!請選擇以下動作。";
+"None" = "無";
+"Export" = "導出";
+"Okay" = "好";
+
+"The following packages are not properly installed/configured and were skipped:\n%@" = "以下套件因未正確安裝/配置而被跳過：\n%@";
+
+// ProgressVC
+"Progress" = "進度";
+"Waiting" = "等待";
+"Completed" = "已完成";
+"In-progress" = "進行中";
+
+"Determining user packages" = "判斷使用者和開發者套件";
+"Determining installed packages" = "判斷已安裝的套件";
+"Gathering files for packages" = "蒐集套件檔案";
+"Building debs from files" = "從檔案構建 deb";
+"Creating backup from debs" = "從 debs 構建備份";
+
+"Completing pre-restore checks" = "正在完成還原前置檢查";
+"Unpacking backup" = "正在解壓縮備份";
+"Refreshing APT sources" = "重新整理APT軟體源";
+"Installing debs" = "正在安裝deb";
+
+// BackupsVC
+"An error occured and %@ was not deleted!" = "發生錯誤，%@ 未被刪除！";
+"Info: %@" = "詳細資訊：%@";
+"%@ cannot be deleted?!" = "%@ 無法刪除？！";
+"An error occured and %@ could not be imported!" = "發生錯誤，無法導入 %@！";
+"Swipe or tap desired backup" = "滑動或點擊所需的備份";
+"Delete" = "刪除";
+"Type: %@" = "Type: %@";
+
+// CreditsVC
+"Thank you to all who have helped!" = "感謝所有提供過幫助的人！";
+"Reachability project" = "專案可行性";
+"Design inspiration (re: Electra)" = "設計靈感 (re: Electra)";
+"Bootstrap package identification" = "Bootstrap套件辨識";
+"Archival functions" = "歸檔功能";
+"Icon artwork" = "圖示美工";
+"German translation" = "德文翻譯";
+"Turkish translation" = "土耳其文翻譯";
+"Japanese translation" = "日文翻譯";
+"Russian translation" = "俄文翻譯";
+"Arabic translation" = "阿拉伯文翻譯";
+"Spanish translation" = "西班牙文翻譯";
+"Simplified Chinese translation" = "簡體中文翻譯";
+"Taiwanese Mandarin translation" = "台灣國語翻譯";
+
+// BackupManager
+"Failed to generate controls for installed packages!" = "無法產生已安裝套件的控制！";
+"Failed to generate list of packages!" = "無法產生套件清單！";
+"%@ is blank?!" = "%@ 是空白的？！";
+"%@ has no contents!" = "%@ 沒有內容！";
+"Failed to build debs! Not sure how we got here honestly." = "構建 deb 失敗！老實說，我們不知道是怎麼變這樣的。";
+"Failed to get attributes for %@!" = "無法取得 %@! 的屬性";
+"Failed to write generic files to %@ for %@!" = "無法將 %@ 的一般檔案寫入 %@！";
+"Failed to copy generic files!" = "無法複製一般檔案！";
+"Failed to copy DEBIAN files!" = "無法複製 .deb 檔案！";
+"Failed to build deb for %@!" = "無法為 %@ 構建 deb 檔案！";
+"Failed to build final archive!" = "無法構建最終檔案！";
+
+// GenManager
+"IAmLazy Error:" = "IAmLazy 錯誤：";
+"Your device does not appear to be connected to the internet" = "您的裝置似乎未連線到網路";
+"A network connection is required for restores so packages can be downloaded if need be" = "還原需要網路連線，以便在需要時可以下載套件";
+"Failed to create %@!" = "構建 %@ 失敗！";
+"Failed to get contents of %@!" = "取得 %@ 的內容失敗！";
+"%@ is not writeable." = "無法寫入 %@ ！";
+"Please ensure that the directory's owner is mobile and not root." = "請確保該目錄的擁有者是 mobile 而不是 root。";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "標準備份需要網絡連線，以確定特定的套件是否是由引導程式提供的。";
+"Failed to free dpkg lock!" = "解除 dpkg lock 失敗！";
+"Failed to cleanup %@!" = "清理 %@ 失敗！";
+"Failed to update APT sources!" = "更新APT軟體源失敗！";
+
+// RestoreManager
+"The backup dir does not exist!" = "此備份資料夾不存在";
+"No backups were found!" = "找不到任何備份檔案！";
+"The target backup -- %@ -- could not be found!" = "找不到指定備份 -- %@ -- ！";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "您嘗試還原的備份是使用 %@ bootstrap 為越獄而製作的。";
+"Your current jailbreak is using %@!" = "您正在使用的越獄是 %@！";
+"%@ is empty?!" = "%@ 是空的？！";
+"%@ has no debs!" = "%@ 沒有 deb 檔案！";
+"Failed to install %@!" = "安裝 %@ 失敗！";
+"The backup you're trying to restore from was made for %@ jailbreaks." = "您嘗試還原的備份是由%@ 越獄而製作的。";
+"Your current jailbreak is %@!" = "你目前的越獄是 %@!";
