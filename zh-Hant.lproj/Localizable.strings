@@ -110,4 +110,4 @@
 "%@ has no debs!" = "%@ 沒有 deb 檔案！";
 "Failed to install %@!" = "安裝 %@ 失敗！";
 "The backup you're trying to restore from was made for %@ jailbreaks." = "您嘗試還原的備份是由%@ 越獄而製作的。";
-"Your current jailbreak is %@!" = "你目前的越獄是 %@!";
+"Your current jailbreak is %@!" = "您目前的越獄是 %@!";
