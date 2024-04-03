@@ -7,7 +7,7 @@
 "Restore" = "還原";
 "Credits" = "銘謝";
 "Backups" = "備份檔案";
-"Easily backup and restore your tweaks" = "輕鬆備份和恢復您的插體";
+"Easily backup and restore your tweaks" = "輕鬆備份和復原您的外掛";
 
 "Standard" = "標準";
 "Developer" = "開發者";
@@ -23,7 +23,7 @@
 "Confirm" = "確認";
 "Cancel" = "取消";
 
-"Tweak backup completed successfully in %@ seconds!" = "插體備份在 %@ 秒內成功完成！";
+"Tweak backup completed successfully in %@ seconds!" = "外掛備份在 %@ 秒內成功完成！";
 "Your backup can be found in\n%@" = "在此可找到您的備份：\n%@";
 "Choose a post-restore command:" = "已完成!請選擇以下動作。";
 "None" = "無";
@@ -72,7 +72,7 @@
 "Arabic translation" = "阿拉伯文翻譯";
 "Spanish translation" = "西班牙文翻譯";
 "Simplified Chinese translation" = "簡體中文翻譯";
-"Taiwanese Mandarin translation" = "台灣國語翻譯";
+"Taiwanese Mandarin translation" = "台灣中文翻譯";
 
 // BackupManager
 "Failed to generate controls for installed packages!" = "無法產生已安裝套件的控制！";
