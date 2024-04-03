@@ -56,14 +56,14 @@
 "An error occured and %@ could not be imported!" = "發生錯誤，無法導入 %@！";
 "Swipe or tap desired backup" = "滑動或點擊所需的備份";
 "Delete" = "刪除";
-"Type: %@" = "Type: %@";
+"Type: %@" = "類型: %@";
 
 // CreditsVC
 "Thank you to all who have helped!" = "感謝所有提供過幫助的人！";
 "Reachability project" = "專案可行性";
 "Design inspiration (re: Electra)" = "設計靈感 (re: Electra)";
 "Bootstrap package identification" = "Bootstrap套件辨識";
-"Archival functions" = "歸檔功能";
+"Archival functions" = "壓縮功能";
 "Icon artwork" = "圖示美工";
 "German translation" = "德文翻譯";
 "Turkish translation" = "土耳其文翻譯";
