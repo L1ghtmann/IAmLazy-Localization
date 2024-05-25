@@ -72,7 +72,7 @@
 "Arabic translation" = "Arabic translation";
 "Spanish translation" = "Spanish translation";
 "Simplified Chinese translation" = "Simplified Chinese translation";
-"Taiwanese Mandarin translation" = "Taiwanese Mandarin translation";
+"Traditional Chinese (Taiwan) translation" = "Traditional Chinese (Taiwan) translation";
 
 // BackupManager
 "Failed to generate controls for installed packages!" = "Falla en generar controles para paquetes instalados!";
