@@ -101,6 +101,8 @@
 "Failed to cleanup %@!" = "Failed to cleanup %@!";
 "Failed to update APT sources!" = "Failed to update APT sources!";
 "Hide Details" = "Hide Details";
+"Backup failed!" = "Backup failed!";
+"Restore failed!" = "Restore failed!";
 
 // RestoreManager
 "The backup dir does not exist!" = "Das Backupverzeichnis existiert nicht!";
