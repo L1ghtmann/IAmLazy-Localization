@@ -22,6 +22,7 @@
 
 "Confirm" = "подтверждать";
 "Cancel" = "отмена";
+"Show Details" = "Show Details";
 
 "Tweak backup completed successfully in %@ seconds!" = "Резервное копирование твика успешно завершено в %@ секунды!";
 "Your backup can be found in\n%@" = "Ваша резервная копия может быть найдена в\n%@";
@@ -99,6 +100,7 @@
 "Failed to free dpkg lock!" = "Failed to free dpkg lock!";
 "Failed to cleanup %@!" = "Failed to cleanup %@!";
 "Failed to update APT sources!" = "Failed to update APT sources!";
+"Hide Details" = "Hide Details";
 
 // RestoreManager
 "The backup dir does not exist!" = "Резервный каталог не существует!";

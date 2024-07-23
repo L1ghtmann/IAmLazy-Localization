@@ -22,6 +22,7 @@
 
 "Confirm" = "Bestätigen";
 "Cancel" = "Abbrechen";
+"Show Details" = "Show Details";
 
 "Tweak backup completed successfully in %@ seconds!" = "Tweak Backup erfolgreich abgeschlossen in %@ Sekunden!";
 "Your backup can be found in\n%@" = "Backup gespeichert in\n%@";
@@ -99,6 +100,7 @@
 "Failed to free dpkg lock!" = "Failed to free dpkg lock!";
 "Failed to cleanup %@!" = "Failed to cleanup %@!";
 "Failed to update APT sources!" = "Failed to update APT sources!";
+"Hide Details" = "Hide Details";
 
 // RestoreManager
 "The backup dir does not exist!" = "Das Backupverzeichnis existiert nicht!";

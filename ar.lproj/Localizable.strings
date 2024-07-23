@@ -22,6 +22,7 @@
 
 "Confirm" = "تأكيد";
 "Cancel" = "إلغاء";
+"Show Details" = "Show Details";
 
 "Tweak backup completed successfully in %@ seconds!" = "تم إتمام اخذ النسخة الإحتياطية بنجاح في ثواني %@!";
 "Your backup can be found in\n%@" = "يمكنك إيجاد نسختك الإحتياطية في\n%@";

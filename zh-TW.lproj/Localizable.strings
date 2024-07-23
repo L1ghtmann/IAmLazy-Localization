@@ -22,6 +22,7 @@
 
 "Confirm" = "確認";
 "Cancel" = "取消";
+"Show Details" = "Show Details";
 
 "Tweak backup completed successfully in %@ seconds!" = "外掛備份在 %@ 秒內成功完成！";
 "Your backup can be found in\n%@" = "在此可找到您的備份：\n%@";
@@ -99,6 +100,7 @@
 "Failed to free dpkg lock!" = "解除 dpkg lock 失敗！";
 "Failed to cleanup %@!" = "清理 %@ 失敗！";
 "Failed to update APT sources!" = "更新APT軟體源失敗！";
+"Hide Details" = "Hide Details";
 
 // RestoreManager
 "The backup dir does not exist!" = "此備份資料夾不存在";
