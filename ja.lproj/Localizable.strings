@@ -1,5 +1,5 @@
 //
-// Translation by KAGUYA-1137
+// Translation by lisiyaki
 //
 
 // RootVC
@@ -17,8 +17,7 @@
 "Yes" = "はい";
 "No" = "いいえ";
 "Please note:" = "これを読んでください:";
-"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "あなたは開発者向けのバックアップから復元することを選択しました。このバックアップにはブートストラップパッケージがあります。
-";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "あなたは開発者向けのバックアップから復元することを選択しました。このバックアップにはブートストラップパッケージがあります。";
 "Please confirm that you understand this and still wish to proceed with the restore" = "この注意事項を理解した上で復元を続けて下さい。";
 
 "Confirm" = "確認";
