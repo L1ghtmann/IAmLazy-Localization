@@ -9,15 +9,15 @@
 "Backups" = "バックアップリスト";
 "Easily backup and restore your tweaks" = "tweakを簡単にバックアップ、復元します";
 
-"Standard" = "標準バックアップ";
-"Developer" = "開発者向けバックアップ";
+"Standard" = "標準のバックアップ";
+"Developer" = "開発者向けのバックアップ";
 
 "Please confirm that you have adequate free storage before proceeding:" = "続行前に空き容量が不足していないことを確認してください:";
 "Are you sure that you want to restore from %@?" = "このバックアップから本当に復元しますか？ %@?";
 "Yes" = "はい";
 "No" = "いいえ";
 "Please note:" = "これを読んでください:";
-"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "あなたは開発者向けバックアップから復元することを選択しました。このバックアップにはブートストラップパッケージがあります。
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "あなたは開発者向けのバックアップから復元することを選択しました。このバックアップにはブートストラップパッケージがあります。
 ";
 "Please confirm that you understand this and still wish to proceed with the restore" = "この注意事項を理解した上で復元を続けて下さい。";
 
