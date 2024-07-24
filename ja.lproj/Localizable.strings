@@ -26,7 +26,7 @@
 "Show Details" = "詳細を表示";
 
 "Tweak backup completed successfully in %@ seconds!" = "tweakのバックアップは %@ 秒で完了しました！";
-"Your backup can be found in\n%@" = "バックアップはこの場所に格納されました\n%@";
+"Your backup can be found in\n%@" = "バックアップは次の場所にあります\n%@";
 "Choose a post-restore command:" = "復元後の動作を選択してください:";
 "None" = "なし";
 "Export" = "エクスポート";
