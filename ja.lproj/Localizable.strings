@@ -1,117 +1,117 @@
 //
-// Translation by lisiyaki
+// Translation by lisiyaki and KAGUYA_1137
 //
 
 // RootVC
-"Backup" = "バクアップ";
-"Restore" = "戻す";
+"Backup" = "バックアップ";
+"Restore" = "復元";
 "Credits" = "クレジット";
-"Backups" = "バクアップリスト";
-"Easily backup and restore your tweaks" = "Easily backup and restore your tweaks";
+"Backups" = "バックアップリスト";
+"Easily backup and restore your tweaks" = "tweakを簡単にバックアップ、復元します";
 
-"Standard" = "普通版";
-"Developer" = "デベロッパー版";
+"Standard" = "標準のバックアップ";
+"Developer" = "開発者向けのバックアップ";
 
-"Please confirm that you have adequate free storage before proceeding:" = "進む前にデータが不足じゃないことを確認してください:";
-"Are you sure that you want to restore from %@?" = "このバクアップから本当に戻したいですか %@?";
+"Please confirm that you have adequate free storage before proceeding:" = "続行前に空き容量が不足していないことを確認してください:";
+"Are you sure that you want to restore from %@?" = "このバックアップから本当に復元しますか？ %@?";
 "Yes" = "はい";
 "No" = "いいえ";
 "Please note:" = "これを読んでください:";
-"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "あなたはデベロッパーバクアップから戻すことを選択しました。このバクアップにはブートストラップパッケージがあります。";
-"Please confirm that you understand this and still wish to proceed with the restore" = "前の読んだことが分かって、まだ戻したいことを確認してください。";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "あなたは開発者向けのバックアップから復元することを選択しました。このバックアップにはブートストラップパッケージがあります。";
+"Please confirm that you understand this and still wish to proceed with the restore" = "この注意事項を理解した上で復元を続けて下さい。";
 
 "Confirm" = "確認";
 "Cancel" = "キャンセル";
-"Show Details" = "Show Details";
+"Show Details" = "詳細を表示";
 
-"Tweak backup completed successfully in %@ seconds!" = "ツィーグのバクアップは %@ 秒に完了しました!";
-"Your backup can be found in\n%@" = "あなたのバクアップはこのところで見つけられます\n%@";
-"Choose a post-restore command:" = "戻す後のコマンドを選択してください:";
-"None" = "ない";
+"Tweak backup completed successfully in %@ seconds!" = "tweakのバックアップは %@ 秒で完了しました！";
+"Your backup can be found in\n%@" = "バックアップは次の場所にあります\n%@";
+"Choose a post-restore command:" = "復元後の動作を選択してください:";
+"None" = "何もしない";
 "Export" = "エクスポート";
-"Okay" = "Okay";
+"Okay" = "OK";
 
-"The following packages are not properly installed/configured and were skipped:\n%@" = "The following packages are not properly installed/configured and were skipped:\n%@";
+"The following packages are not properly installed/configured and were skipped:\n%@" = "以下のパッケージは適切にインストール/構成されていないためスキップされました:\n%@";
 
 // ProgressVC
-"Progress" = "進行";
-"Waiting" = "待っています";
-"Completed" = "完了しました";
-"In-progress" = "進行中";
+"Progress" = "進捗";
+"Waiting" = "待機中";
+"Completed" = "完了";
+"In-progress" = "処理中";
 
 "Determining user packages" = "ユーザーパッケージを見つけています";
 "Determining installed packages" = "インストールしたパッケージを見つけています";
 "Gathering files for packages" = "パッケージを作るため、ファイルを見つけています";
-"Building debs from files" = "ファイルからdebsを作っています";
-"Creating backup from debs" = "debsからバクアップを作っています";
+"Building debs from files" = "ファイルからdebを作っています";
+"Creating backup from debs" = "debからバックアップを作っています";
 
-"Completing pre-restore checks" = "戻す前のチェックをしています";
-"Unpacking backup" = "バクアップを開いています";
+"Completing pre-restore checks" = "復元前のチェックをしています";
+"Unpacking backup" = "バックアップを開いています";
 "Refreshing APT sources" = "APTのソースをリフレッシュしています";
-"Installing debs" = "debsをインストールしています";
+"Installing debs" = "debをインストールしています";
 
 // BackupsVC
-"An error occured and %@ was not deleted!" = "エーラがありまして %@ は消しませんでした!";
-"Info: %@" = "インフォ: %@";
-"%@ cannot be deleted?!" = "%@ は消せませんでした?!";
-"An error occured and %@ could not be imported!" = "An error occured and %@ could not be imported!";
-"Swipe or tap desired backup" = "Swipe or tap desired backup";
-"Delete" = "Delete";
-"Type: %@" = "Type: %@";
+"An error occured and %@ was not deleted!" = "エラーが発生したため %@ を削除出来ませんでした！";
+"Info: %@" = "情報: %@";
+"%@ cannot be deleted?!" = "%@ を削除出来ませんでした！";
+"An error occured and %@ could not be imported!" = "エラーが発生したため、%@ をインポートできませんでした！";
+"Swipe or tap desired backup" = "復元するバックアップをスワイプまたはタップして下さい";
+"Delete" = "削除";
+"Type: %@" = "タイプ: %@";
 
 // CreditsVC
-"Thank you to all who have helped!" = "Thank you to all who have helped!";
+"Thank you to all who have helped!" = "ご協力いただいた皆様、ありがとうございました！";
 "Reachability project" = "Reachability project";
-"Design inspiration (re: Electra)" = "Design inspiration (re: Electra)";
-"Bootstrap package identification" = "Bootstrap package identification";
-"Archival functions" = "Archival functions";
-"Icon artwork" = "Icon artwork";
-"German translation" = "German translation";
-"Turkish translation" = "Turkish translation";
-"Japanese translation" = "Japanese translation";
-"Russian translation" = "Russian translation";
-"Arabic translation" = "Arabic translation";
-"Spanish translation" = "Spanish translation";
-"Simplified Chinese translation" = "Simplified Chinese translation";
-"Traditional Chinese (Taiwan) translation" = "Traditional Chinese (Taiwan) translation";
+"Design inspiration (re: Electra)" = "デザインのインスピレーション (re: Electra)";
+"Bootstrap package identification" = "ブートストラップパッケージの識別";
+"Archival functions" = "アーカイブ機能";
+"Icon artwork" = "アイコンのアートワーク";
+"German translation" = "ドイツ語翻訳";
+"Turkish translation" = "トルコ語翻訳";
+"Japanese translation" = "日本語翻訳";
+"Russian translation" = "ロシア語翻訳";
+"Arabic translation" = "アラビア語翻訳";
+"Spanish translation" = "スペイン語翻訳";
+"Simplified Chinese translation" = "簡体字中国語翻訳";
+"Traditional Chinese (Taiwan) translation" = "繁体字中国語（台湾）翻訳";
 
 // BackupManager
-"Failed to generate controls for installed packages!" = "インストールしたパッケージのコントロールを作られませんでした！";
-"Failed to generate list of packages!" = "パッケージリストを作られませんでした！";
-"%@ is blank?!" = "%@ はブランクです?!";
-"%@ has no contents!" = "%@ には何もがなさそうです!";
-"Failed to build debs! Not sure how we got here honestly." = "あら。。debが作れなかったの！？不思議なのよね。。";
-"Failed to get attributes for %@!" = "Failed to get attributes for %@!";
-"Failed to write generic files to %@ for %@!" = "Failed to write generic files to %@ for %@!";
-"Failed to copy generic files!" = "Failed to copy generic files!";
-"Failed to copy DEBIAN files!" = "Failed to copy DEBIAN files!";
-"Failed to build deb for %@!" = "Failed to build deb for %@!";
-"Failed to build final archive!" = "Failed to build final archive!";
+"Failed to generate controls for installed packages!" = "インストールしたパッケージのコントロールを作れませんでした！";
+"Failed to generate list of packages!" = "パッケージリストを作れませんでした！";
+"%@ is blank?!" = "%@ は空です！";
+"%@ has no contents!" = "%@ には何もコンテンツがありません！";
+"Failed to build debs! Not sure how we got here honestly." = "debのビルドに失敗しました！ 正直どうやってここまで来たのかわかりません。";
+"Failed to get attributes for %@!" = "%@!の属性を取得できませんでした";
+"Failed to write generic files to %@ for %@!" = "%@ の %@ への汎用ファイルの書き込みに失敗しました";
+"Failed to copy generic files!" = "汎用ファイルのコピーに失敗しました！";
+"Failed to copy DEBIAN files!" = "DEBIAN ファイルのコピーに失敗しました！";
+"Failed to build deb for %@!" = "%@! のdeb をビルドできませんでした";
+"Failed to build final archive!" = "最終アーカイブの構築に失敗しました！";
 
 // GenManager
-"IAmLazy Error:" = "IAmLazy Error:";
-"Your device does not appear to be connected to the internet" = "あなたのデバイスはインタネットに接続時代なさそうです";
-"A network connection is required for restores so packages can be downloaded if need be" = "戻す時に、ネットワークの接続は必要です。(パッケージをダウンロードすることがいるなら)。";
-"Failed to create %@!" = "作られませんでした %@!";
-"Failed to get contents of %@!" = "内容を取れませんでした %@!";
-"%@ is not writeable." = "%@ このファイルには何も書けませんでした.";
-"Please ensure that the directory's owner is mobile and not root." = "このディレクトリのownerはrootじゃなくてmobileことをチェックしてください.";
-"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "A network connection is required for standard backups to determine if a given package is bootstrap-vended or not";
+"IAmLazy Error:" = "IAmLazy エラー:";
+"Your device does not appear to be connected to the internet" = "デバイスがインターネットに接続されていないようです";
+"A network connection is required for restores so packages can be downloaded if need be" = "復元にはパッケージをダウンロードするために、ネットワーク接続が必要です";
+"Failed to create %@!" = "作成に失敗しました %@!";
+"Failed to get contents of %@!" = "%@!  の内容を取得できませんでした";
+"%@ is not writeable." = "%@  は書き込み不可です。";
+"Please ensure that the directory's owner is mobile and not root." = "ディレクトリの所有者がルートではなくモバイルであることを確認してください。";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "標準バックアップでは、特定のパッケージがブートストラップでベンドされているかどうかを判断するためにネットワーク接続が必要です";
 "Failed to free dpkg lock!" = "Failed to free dpkg lock!";
-"Failed to cleanup %@!" = "Failed to cleanup %@!";
-"Failed to update APT sources!" = "Failed to update APT sources!";
-"Hide Details" = "Hide Details";
-"Backup failed!" = "Backup failed!";
-"Restore failed!" = "Restore failed!";
+"Failed to cleanup %@!" = "%@! のクリーンアップに失敗しました";
+"Failed to update APT sources!" = "APT ソースの更新に失敗しました！";
+"Hide Details" = "詳細を非表示";
+"Backup failed!" = "バックアップに失敗しました！";
+"Restore failed!" = "復元に失敗しました！";
 
 // RestoreManager
-"The backup dir does not exist!" = "バクアップのディレクトリがないです！";
-"No backups were found!" = "バクアップが見つかれませんでした！";
-"The target backup -- %@ -- could not be found!" = "目標のバクアップ -- %@ -- が見つけませんでした";
-"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "今の戻してみているバクアップは別のブートストラップのためのバクアップです。 %@ ブートストラップ.";
-"Your current jailbreak is using %@!" = "今のジェイルブレイクのブートストラップは %@!";
-"%@ is empty?!" = "%@ はエンプティーです?!";
-"%@ has no debs!" = "%@ にはdebsがないです!";
-"Failed to install %@!" = "Failed to install %@!";
-"The backup you're trying to restore from was made for %@ jailbreaks." = "The backup you're trying to restore from was made for %@ jailbreaks.";
-"Your current jailbreak is %@!" = "Your current jailbreak is %@!";
+"The backup dir does not exist!" = "バックアップのディレクトリが存在しません！";
+"No backups were found!" = "バっクアップが見つかりませんでした！";
+"The target backup -- %@ -- could not be found!" = "目標のバックアップ -- %@ -- が見つかりませんでした！";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "復元しようとしているバックアップは、%@ ブートストラップを使用した脱獄環境用に作成されたものです。";
+"Your current jailbreak is using %@!" = "現在の脱獄環境で使用しているブートストラップは %@! です";
+"%@ is empty?!" = "%@ は空です！";
+"%@ has no debs!" = "%@ にはdebsがありません！";
+"Failed to install %@!" = "%@! のインストールに失敗しました";
+"The backup you're trying to restore from was made for %@ jailbreaks." = "復元しようとしているバックアップは、%@  脱獄環境用に作成されたものです。";
+"Your current jailbreak is %@!" = "現在の脱獄環境は %@! です";
