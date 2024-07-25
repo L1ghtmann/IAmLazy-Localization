@@ -1,5 +1,5 @@
 //
-//	Translation by Oliver Tzeng
+//	Translation and fixes by Oliver Tzeng and Neo1102
 //
 
 // RootVC
@@ -7,7 +7,7 @@
 "Restore" = "還原";
 "Credits" = "銘謝";
 "Backups" = "備份檔案";
-"Easily backup and restore your tweaks" = "輕鬆備份和復原您的外掛";
+"Easily backup and restore your tweaks" = "輕鬆備份和復原您的插件";
 
 "Standard" = "標準";
 "Developer" = "開發者";
@@ -22,11 +22,11 @@
 
 "Confirm" = "確認";
 "Cancel" = "取消";
-"Show Details" = "Show Details";
+"Show Details" = "顯示細節";
 
-"Tweak backup completed successfully in %@ seconds!" = "外掛備份在 %@ 秒內成功完成！";
+"Tweak backup completed successfully in %@ seconds!" = "插件備份在 %@ 秒內成功完成！";
 "Your backup can be found in\n%@" = "在此可找到您的備份：\n%@";
-"Choose a post-restore command:" = "已完成!請選擇以下動作。";
+"Choose a post-restore command:" = "已完成！請選擇以下動作。";
 "None" = "無";
 "Export" = "導出";
 "Okay" = "好";
@@ -47,23 +47,23 @@
 
 "Completing pre-restore checks" = "正在完成還原前置檢查";
 "Unpacking backup" = "正在解壓縮備份";
-"Refreshing APT sources" = "重新整理APT軟體源";
-"Installing debs" = "正在安裝deb";
+"Refreshing APT sources" = "重新整理 APT 軟體源";
+"Installing debs" = "正在安裝 deb";
 
 // BackupsVC
 "An error occured and %@ was not deleted!" = "發生錯誤，%@ 未被刪除！";
 "Info: %@" = "詳細資訊：%@";
-"%@ cannot be deleted?!" = "%@ 無法刪除？！";
+"%@ cannot be deleted?!" = "無法刪除 %@？！";
 "An error occured and %@ could not be imported!" = "發生錯誤，無法導入 %@！";
 "Swipe or tap desired backup" = "滑動或點擊所需的備份";
 "Delete" = "刪除";
 "Type: %@" = "類型: %@";
 
 // CreditsVC
-"Thank you to all who have helped!" = "感謝所有提供過幫助的人！";
+"Thank you to all who have helped!" = "感謝所有貢獻者！";
 "Reachability project" = "專案可行性";
 "Design inspiration (re: Electra)" = "介面設計靈感來自 Electra";
-"Bootstrap package identification" = "Bootstrap套件辨識";
+"Bootstrap package identification" = "Bootstrap 套件辨識";
 "Archival functions" = "壓縮功能";
 "Icon artwork" = "圖示美工";
 "German translation" = "德文翻譯";
@@ -73,7 +73,7 @@
 "Arabic translation" = "阿拉伯文翻譯";
 "Spanish translation" = "西班牙文翻譯";
 "Simplified Chinese translation" = "簡體中文翻譯";
-"Taiwanese Mandarin translation" = "台灣中文翻譯";
+"Taiwanese Mandarin translation" = "台灣繁體中文翻譯";
 
 // BackupManager
 "Failed to generate controls for installed packages!" = "無法產生已安裝套件的控制！";
@@ -95,23 +95,23 @@
 "Failed to create %@!" = "構建 %@ 失敗！";
 "Failed to get contents of %@!" = "取得 %@ 的內容失敗！";
 "%@ is not writeable." = "無法寫入 %@ ！";
-"Please ensure that the directory's owner is mobile and not root." = "請確保該目錄的擁有者是 mobile 而不是 root。";
-"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "標準備份需要網絡連線，以確定特定的套件是否是由引導程式提供的。";
+"Please ensure that the directory's owner is mobile and not root." = "請確保該資料夾的擁有者是 mobile 而不是 root。";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "標準備份需要網路連線，以確定特定的套件是否是由引導程式提供的。";
 "Failed to free dpkg lock!" = "解除 dpkg lock 失敗！";
 "Failed to cleanup %@!" = "清理 %@ 失敗！";
-"Failed to update APT sources!" = "更新APT軟體源失敗！";
-"Hide Details" = "Hide Details";
-"Backup failed!" = "Backup failed!";
-"Restore failed!" = "Restore failed!";
+"Failed to update APT sources!" = "更新 APT 軟體源失敗！";
+"Hide Details" = "隱藏細節";
+"Backup failed!" = "備份失敗！";
+"Restore failed!" = "回復失敗！";
 
 // RestoreManager
 "The backup dir does not exist!" = "此備份資料夾不存在";
 "No backups were found!" = "找不到任何備份檔案！";
 "The target backup -- %@ -- could not be found!" = "找不到指定備份 -- %@ -- ！";
 "The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "您嘗試還原的備份是使用 %@ bootstrap 為越獄而製作的。";
-"Your current jailbreak is using %@!" = "您正在使用的越獄是 %@！";
+"Your current jailbreak is using %@!" = "目前的越獄是 %@！";
 "%@ is empty?!" = "%@ 是空的？！";
 "%@ has no debs!" = "%@ 沒有 deb 檔案！";
 "Failed to install %@!" = "安裝 %@ 失敗！";
-"The backup you're trying to restore from was made for %@ jailbreaks." = "您嘗試還原的備份是由%@ 越獄而製作的。";
-"Your current jailbreak is %@!" = "您目前的越獄是 %@!";
+"The backup you're trying to restore from was made for %@ jailbreaks." = "您嘗試還原的備份是由 %@ 越獄製作的。";
+"Your current jailbreak is %@!" = "目前的越獄是 %@！";
